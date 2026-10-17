@@ -12,11 +12,11 @@ python3 -m http.server 3000 --bind 0.0.0.0
 
 ## Update the site
 
-Edit `index.html` to update the biography, book descriptions, series lore, and retailer information. Both books are currently unpublished. Add news entries inside the `news` section, newest first. The current news entry is a site introduction.
+Edit `index.html` to update the biography, book descriptions, series lore, and retailer information. Both books are currently unpublished. Publish news using GitHub Issues; see [the news posting guide](NEWS.md). The welcome entry remains on the page even if GitHub is temporarily unavailable.
 
 The illustrated landscape is CSS artwork. Author-supplied original book covers are stored in `assets/` and displayed uncropped with descriptive alt text. They are served locally and do not depend on Google Drive access. Change colours and layout in `styles.css`.
 
-Purchase links are not active until real retailer URLs are supplied. This is a static site: content updates currently require editing the file; it has no login or content management dashboard. Hosting and a custom domain have not been configured.
+Purchase links are not active until real retailer URLs are supplied. The site is hosted on GitHub Pages. News uses GitHub’s editor and public API; other content updates require editing the files. A custom domain has not been configured.
 
 ## Quick checks
 

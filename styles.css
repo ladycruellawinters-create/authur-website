@@ -30,3 +30,6 @@
 .lore-list .house-room{padding:20px 0;margin:0;border-top:1px solid var(--line)}
 .lore-list .house-room:first-of-type{margin-top:22px}
 .lore-list .house-room summary{font-size:21px}
+
+.news-item .news-body{white-space:pre-wrap;overflow-wrap:anywhere}
+.news-status{color:var(--muted);font-size:13px}
