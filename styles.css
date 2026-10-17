@@ -16,3 +16,7 @@
 .lore-list .school-lore-entry p{margin:12px 0 0}
 
 .school-lore-entry h4{font-family:Georgia,serif;font-weight:400;font-size:19px;line-height:1.4;margin:24px 0 8px;color:var(--paper)}
+
+.founder-list{margin:0}
+.founder-list dt{font-family:Georgia,serif;font-size:19px;color:var(--paper);margin-top:20px}
+.founder-list dd{margin:4px 0 0;color:var(--muted);font-size:13px}
