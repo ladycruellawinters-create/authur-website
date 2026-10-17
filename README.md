@@ -24,3 +24,9 @@ Purchase links are not active until real retailer URLs are supplied. The site is
 node --check script.js
 curl --fail http://127.0.0.1:3000/
 ```
+
+## Selected social posts
+
+The `socials` section in `index.html` contains three hand-picked posts, not an automatic feed. Each has a lazy-loaded platform embed and a permanent direct link. To replace a post, update both its iframe source and its link. TikTok uses `/player/v1/VIDEO_ID`, Instagram uses `/p/POST_ID/embed/`, and Threads uses `/@USERNAME/post/POST_ID/embed` on `www.threads.net`. Keep iframe titles and direct links descriptive. Do not invent post captions.
+
+Third-party platforms control availability, sign-in, cookie requirements, and embed permissions. Posts must remain public and embedding must be allowed by the platform/account. Direct links remain available if embeds are blocked. The site does not need social account passwords or API keys.
