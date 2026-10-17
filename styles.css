@@ -20,3 +20,9 @@
 .founder-list{margin:0}
 .founder-list dt{font-family:Georgia,serif;font-size:19px;color:var(--paper);margin-top:20px}
 .founder-list dd{margin:4px 0 0;color:var(--muted);font-size:13px}
+
+.house-list{margin:20px 0 0}
+.house-list dt{display:flex;align-items:center;gap:10px;font-family:Georgia,serif;font-size:19px;color:var(--paper);margin-top:20px}
+.house-list dd{margin:4px 0 0 24px;color:var(--muted);font-size:13px}
+.house-colour{display:inline-block;width:14px;height:14px;flex-shrink:0;border-radius:50%;border:1px solid #ffffff60}
+.house-goch{background:#cc4e54}.house-talar{background:#518fd4}.house-derwen{background:#5baf7c}.house-idris{background:#a5a8ac}
