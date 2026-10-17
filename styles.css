@@ -7,3 +7,6 @@
 .social-links{display:flex;flex-wrap:wrap;justify-content:center;gap:8px 22px;margin-top:12px;font-size:12px;color:var(--gold)}
 .social-links a{padding:8px 0;text-underline-offset:5px}
 .social-links a:hover{text-decoration:underline}
+
+.school-description{margin:24px 0 0;padding:2px 0 2px 20px;border-left:2px solid var(--gold)}
+.lore-list .school-description p{margin:0;color:var(--paper);font-family:Georgia,serif;font-size:16px;line-height:1.85}
