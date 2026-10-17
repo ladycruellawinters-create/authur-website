@@ -42,3 +42,7 @@ The homepage uses `halloween.css` and `assets/halloween-worlds.png` for its seas
 ## Author introduction and writing milestone
 
 The About text and “Currently writing” section are in `index.html`. The four-chapter milestone refers to the current rewrite, not the total length of the book. Update its count, wording, and “Last updated” date together when the author reports new progress. It is a manual milestone, not a live tracker or percentage. Social captions ready to copy are in `SOCIAL-POSTS.md`; the site does not post to social accounts.
+
+## House sorting quiz
+
+`sorting-quiz.html` is linked from the homepage’s Mynydd Draig card and the school lore page. Questions, options, house descriptions, and scoring live in `sorting-quiz.js`; layout is in `sorting-quiz.css`. Each of eight questions gives one point to its selected founding value. Every question offers all four values, and option order rotates evenly. A unique highest score gives the result; a tie prompts the reader to choose among only the tied values. Missing answers use native form validation. Restart clears all selections. Answers are kept only in page memory, with no storage, tracking, sign-up, or external service. The quiz is an imagined, spoiler-free activity inspired by the approved founders and values, not an event or ritual from the manuscript. No answers from Idris’s entrance riddles are included.

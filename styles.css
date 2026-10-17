@@ -80,3 +80,5 @@ nav.lore-contents{display:flex;position:static;flex-direction:column;align-items
 .writing-milestone .milestone-stage{font-size:13px;margin-bottom:8px}
 .writing-milestone .milestone-date{font-size:11px;margin-bottom:24px}
 @media(max-width:760px){.writing-layout{grid-template-columns:minmax(0,1fr);gap:32px}.writing h2 br{display:none}.writing-milestone{padding:28px 20px}}
+
+.series-lore-card .series-quiz-link{margin:20px 0 0}
