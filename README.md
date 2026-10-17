@@ -34,3 +34,7 @@ Third-party platforms control availability, sign-in, cookie requirements, and em
 ## Series lore pages
 
 The homepage links to `mynydd-draig.html` and `my-neighbour-is.html`. Each page has an on-page contents menu, the approved lore, links back to the homepage, and a link to the other series. Edit lore in its series page. Both pages share `styles.css` and `script.js`; news is only fetched on the homepage. Previous homepage lore section bookmarks redirect to the matching series-page section. Keep these filenames and section IDs stable when updating links.
+
+## Halloween homepage banner
+
+The homepage uses `halloween.css` and `assets/halloween-worlds.png` for its seasonal banner. The illustration is generated artwork inspired by the already-public settings of both series; it does not depict a scene from either manuscript. Banner wording and links live in `index.html`. The theme is intentionally static and can be replaced after Halloween; it does not change automatically with the calendar. Lore pages retain their existing appearance.
