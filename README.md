@@ -38,3 +38,7 @@ The homepage links to `mynydd-draig.html` and `my-neighbour-is.html`. Each page 
 ## Halloween homepage banner
 
 The homepage uses `halloween.css` and `assets/halloween-worlds.png` for its seasonal banner. The illustration is generated artwork inspired by the already-public settings of both series; it does not depict a scene from either manuscript. Banner wording and links live in `index.html`. The theme is intentionally static and can be replaced after Halloween; it does not change automatically with the calendar. Lore pages retain their existing appearance.
+
+## Author introduction and writing milestone
+
+The About text and “Currently writing” section are in `index.html`. The four-chapter milestone refers to the current rewrite, not the total length of the book. Update its count, wording, and “Last updated” date together when the author reports new progress. It is a manual milestone, not a live tracker or percentage. Social captions ready to copy are in `SOCIAL-POSTS.md`; the site does not post to social accounts.
