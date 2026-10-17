@@ -24,6 +24,7 @@ async function loadNews() {
   const owner = 'ladycruellawinters-create';
   const container = document.querySelector('#news-posts');
   const status = document.querySelector('#news-status');
+  if (!container || !status) return;
   const controller = new AbortController();
   const timeout = setTimeout(() => controller.abort(), 10000);
   try {
@@ -70,3 +71,9 @@ async function loadNews() {
   }
 }
 loadNews();
+
+// Keep previously shared homepage lore bookmarks working after the page split.
+const loreBookmarks = {"school-appearance": "mynydd-draig.html", "school-arrival": "mynydd-draig.html", "school-grounds": "mynydd-draig.html", "school-sorting": "mynydd-draig.html", "school-founders": "mynydd-draig.html", "school-houses": "mynydd-draig.html", "school-house-rooms": "mynydd-draig.html", "cedar-hollow-town": "my-neighbour-is.html", "cedar-maple-grove": "my-neighbour-is.html", "cedar-agnes-house": "my-neighbour-is.html", "cedar-local-favourites": "my-neighbour-is.html", "cedar-neighbours": "my-neighbour-is.html"};
+if (document.querySelector('#worlds') && loreBookmarks[window.location.hash.slice(1)]) {
+  window.location.replace(loreBookmarks[window.location.hash.slice(1)] + window.location.hash);
+}
