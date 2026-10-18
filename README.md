@@ -50,3 +50,5 @@ The About text and “Currently writing” section are in `index.html`. The four
 ## House shields
 
 The author-supplied Goch shield is stored unchanged in `assets/goch-house-shield.png` and appears in Goch’s house and common-room entries and the Goch quiz result. Quiz shield paths and alt text are optional fields on each house in `sorting-quiz.js`. Houses without supplied artwork show no shield. Results and restart clear the previous image, so Goch’s shield cannot carry over into another house’s result.
+
+The author-supplied Derwen shield is stored unchanged in `assets/derwen-house-shield.png`, with matching placements in Derwen’s house entry, common room, and quiz result. Lore shields have a 120px width limit directly on the images as well as in the stylesheet.
