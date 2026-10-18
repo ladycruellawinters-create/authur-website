@@ -91,3 +91,8 @@ nav.lore-contents{display:flex;position:static;flex-direction:column;align-items
 .social-post-controls{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:16px 24px;margin-top:35px}
 .social-post-controls p{margin:0;font-size:13px;color:var(--muted)}
 .social-post-controls button{border:0;cursor:pointer}
+
+.news-item[hidden],.news-post-controls[hidden]{display:none!important}
+.news-post-controls{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:16px 24px;margin-top:35px}
+.news-post-controls p{margin:0;font-size:13px;color:var(--muted)}
+.news-post-controls button{border:0;cursor:pointer}

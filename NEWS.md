@@ -10,7 +10,7 @@ No code editing or separate account is needed. Sign in to GitHub as `ladycruella
 4. Click **Create** (or **Submit new issue**). This publishes the text publicly, both on GitHub and in the website’s News section.
 5. Refresh the website to see the post. No code commit or Pages rebuild is needed. `[News]` is removed from the displayed title.
 
-Only open issues created by `ladycruellawinters-create` whose titles start with `[News]` appear. Pull requests and other users’ issues are ignored. Up to six posts are shown, newest first, selected from the latest 100 open issues created by the owner. The original welcome post remains below them.
+Only open issues created by `ladycruellawinters-create` whose titles start with `[News]` appear. Pull requests and other users’ issues are ignored. The six newest posts are shown initially. “See more” reveals all remaining posts and “Show less” collapses them. The original welcome post is included as the oldest entry and counts toward the six. If there are six or fewer entries, no button appears. The site reads additional GitHub API pages when needed so older posts remain available.
 
 ## Edit or remove
 

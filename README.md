@@ -66,3 +66,5 @@ Shared URLs use `sorting-quiz.html?house=goch` (or `talar`, `derwen`, `idris`). 
 Result cards are generated locally in the browser as 1080 × 1350 PNG files using the author-supplied shields, house details, and the quiz’s current website address. No image service or additional package is required. A downloaded image can be uploaded to social media manually; copy the quiz link into the caption as well because the address in the image is not clickable.
 
 The homepage initially shows the first six selected social posts (keep newest first in the markup). When more exist, “See more” reveals the rest and “Show less” collapses them. The shared script derives the count automatically, so new posts need no changes to the toggle. With JavaScript disabled, all posts and their direct links remain visible.
+
+The News section also shows six entries initially, counting the welcome post as the oldest. A separate “See more” / “Show less” button reveals older news without affecting social posts. GitHub issue pages are fetched as needed so the feed is not truncated to six or 100 entries. The welcome post remains available if the API cannot be reached.

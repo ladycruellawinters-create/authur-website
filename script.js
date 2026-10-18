@@ -25,22 +25,30 @@ async function loadNews() {
   const container = document.querySelector('#news-posts');
   const status = document.querySelector('#news-status');
   if (!container || !status) return;
+  const welcomePost = container.querySelector('[data-welcome-post]');
   const controller = new AbortController();
   const timeout = setTimeout(() => controller.abort(), 10000);
   try {
-    const response = await fetch(
-      `https://api.github.com/repos/${owner}/authur-website/issues?creator=${owner}&state=open&sort=created&direction=desc&per_page=100`,
-      { headers: { Accept: 'application/vnd.github+json' }, signal: controller.signal }
-    );
-    if (!response.ok) throw new Error('News service unavailable');
-    const issues = await response.json();
-    if (!Array.isArray(issues)) throw new Error('Invalid news response');
+    const issues = [];
+    let page = 1;
+    while (true) {
+      const response = await fetch(
+        `https://api.github.com/repos/${owner}/authur-website/issues?creator=${owner}&state=open&sort=created&direction=desc&per_page=100&page=${page}`,
+        { headers: { Accept: 'application/vnd.github+json' }, signal: controller.signal }
+      );
+      if (!response.ok) throw new Error('News service unavailable');
+      const batch = await response.json();
+      if (!Array.isArray(batch)) throw new Error('Invalid news response');
+      issues.push(...batch);
+      if (batch.length < 100) break;
+      page++;
+    }
     const posts = issues.filter(issue =>
       !issue.pull_request && issue.state === 'open' &&
       issue.user?.login?.toLowerCase() === owner &&
       typeof issue.title === 'string' && /^\[news\]\s*\S/i.test(issue.title) &&
       !Number.isNaN(Date.parse(issue.created_at))
-    ).slice(0, 6);
+    );
     const fragment = document.createDocumentFragment();
     for (const post of posts) {
       const article = document.createElement('article');
@@ -61,7 +69,9 @@ async function loadNews() {
       article.append(date, content);
       fragment.append(article);
     }
+    if (welcomePost) fragment.append(welcomePost);
     container.replaceChildren(fragment);
+    setupNewsExpansion(container);
     status.hidden = true;
   } catch {
     status.textContent = 'Recent updates couldn’t be loaded. Please try again later.';
@@ -98,4 +108,25 @@ if (socialControls && socialToggle && socialPosts.length > 6) {
     expanded = !expanded;
     updateSocialPosts();
   });
+}
+
+function setupNewsExpansion(container) {
+  const posts = Array.from(container.querySelectorAll(':scope > .news-item'));
+  const controls = document.querySelector('#news-post-controls');
+  const button = document.querySelector('#toggle-news-posts');
+  const count = document.querySelector('#news-post-count');
+  if (!controls || !button || !count) return;
+  let expanded = false;
+  function update() {
+    posts.forEach((post, index) => { post.hidden = !expanded && index >= 6; });
+    button.setAttribute('aria-expanded', String(expanded));
+    button.textContent = expanded ? 'Show less' : 'See more';
+    count.textContent = expanded ? `Showing all ${posts.length} posts.` : `Showing 6 of ${posts.length} posts.`;
+  }
+  controls.hidden = posts.length <= 6;
+  update();
+  button.onclick = () => {
+    expanded = !expanded;
+    update();
+  };
 }
