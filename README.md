@@ -56,3 +56,11 @@ The author-supplied Derwen shield is stored unchanged in `assets/derwen-house-sh
 The author-supplied Talar shield is stored unchanged in `assets/talar-house-shield.png`, with the same house, common-room, and quiz-result placements and sizing.
 
 The author-supplied Idris shield is stored unchanged in `assets/idris-house-shield.png`. All four houses now have artwork in their house information, common-room entry, and matching quiz result.
+
+## Sharing quiz results
+
+Every result includes “Copy result & link” and “Save result image”. “Share result” appears where the browser supports the native sharing menu. Sharing happens only after a reader clicks a button; nothing posts automatically. If clipboard permission is unavailable, a read-only selected text field provides a manual copy option. Cancelling a native share is handled without an error.
+
+Shared URLs use `sorting-quiz.html?house=goch` (or `talar`, `derwen`, `idris`). Only these four values are accepted. Opening one shows “Shared house result” and invites the visitor to take the quiz; it does not claim they answered it. Restart removes the shared-house parameter. No answers or identifying details are included in the link or saved in browser storage. These are openly shareable house pages, not verified certificates of completing the quiz.
+
+Result cards are generated locally in the browser as 1080 × 1350 PNG files using the author-supplied shields, house details, and the quiz’s current website address. No image service or additional package is required. A downloaded image can be uploaded to social media manually; copy the quiz link into the caption as well because the address in the image is not clickable.

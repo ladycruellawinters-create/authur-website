@@ -21,3 +21,16 @@
 @media(max-width:500px){.quiz-option{padding:14px 12px;font-size:14px}.quiz-result{padding:25px 20px}.result-details{grid-template-columns:1fr;gap:4px}.result-details dd{margin-bottom:12px}}
 
 .result-shield{display:block;width:220px;max-width:100%;height:auto;margin:20px 0;border-radius:5px}
+
+.result-sharing{margin:30px 0;padding:24px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.result-sharing h3{font-size:25px;margin-bottom:10px}
+.result-sharing>p{font-size:14px;color:var(--muted)}
+.result-share-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:20px}
+.result-share-actions button{font-size:12px;cursor:pointer;border:1px solid var(--gold);padding:12px 17px}
+.share-secondary{background:transparent;color:var(--gold)}
+.share-secondary:hover{background:#354438}
+.result-share-actions button:disabled{cursor:wait;opacity:.65}
+.result-sharing .share-status{margin:15px 0 0;font-size:13px;color:var(--paper)}
+#manual-share{margin-top:18px;font-size:13px}
+#share-copy-text{display:block;width:100%;margin-top:10px;background:var(--bg);color:var(--paper);border:1px solid var(--gold);padding:12px;font:inherit;resize:vertical}
+@media(max-width:500px){.result-share-actions{flex-direction:column;align-items:stretch}}
