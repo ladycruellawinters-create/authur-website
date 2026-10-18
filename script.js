@@ -130,3 +130,34 @@ function setupNewsExpansion(container) {
     update();
   };
 }
+
+// Use the homepage's latest saved change, never the visitor's current date.
+async function loadPageUpdateDate() {
+  const time = document.querySelector('time[data-page-updated]');
+  if (!time) return;
+  const note = document.querySelector('.update-date-note');
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), 5000);
+  try {
+    const response = await fetch(
+      'https://api.github.com/repos/ladycruellawinters-create/authur-website/commits?sha=main&path=index.html&per_page=1',
+      { headers: { Accept: 'application/vnd.github+json' }, signal: controller.signal }
+    );
+    if (!response.ok) throw new Error('Update date unavailable');
+    const commits = await response.json();
+    const timestamp = Array.isArray(commits) ? commits[0]?.commit?.committer?.date : null;
+    if (typeof timestamp !== 'string' || Number.isNaN(Date.parse(timestamp))) throw new Error('Invalid update date');
+    const date = new Date(timestamp);
+    time.dateTime = date.toISOString();
+    time.textContent = new Intl.DateTimeFormat('en-GB', {
+      day: 'numeric', month: 'long', year: 'numeric', timeZone: 'Europe/London'
+    }).format(date);
+    if (note) note.hidden = true;
+  } catch {
+    // Keep the saved date usable offline, but make its fallback status explicit.
+    if (note) note.hidden = false;
+  } finally {
+    clearTimeout(timeout);
+  }
+}
+loadPageUpdateDate();
