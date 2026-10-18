@@ -71,15 +71,27 @@ nav.lore-contents{display:flex;position:static;flex-direction:column;align-items
 @media(max-width:760px){.series-lore-grid,.lore-layout{grid-template-columns:minmax(0,1fr)}.series-lore-card{padding:25px}.lore-layout{gap:35px}.lore-sidebar{position:static}.lore-contents a{padding:12px 0}.lore-hero h1{letter-spacing:-1px}.lore-content .school-lore-entry h2{font-size:30px}}
 
 .writing{background:#1e2b27}
-.writing-layout{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:70px;align-items:center}
-.writing-layout h3{font-size:23px;line-height:1.4;margin-bottom:18px}
-.writing-layout>div>p:not(.eyebrow){color:var(--muted);max-width:550px}
-.writing-milestone{border:1px solid var(--line);padding:32px;text-align:center;background:#14201b}
-.milestone-number{display:block;font-family:Georgia,serif;font-size:94px;line-height:1.1;color:var(--gold)}
-.writing-milestone .milestone-label{font-family:Georgia,serif;font-size:24px;color:var(--paper);margin:12px 0}
-.writing-milestone .milestone-stage{font-size:13px;margin-bottom:8px}
-.writing-milestone .milestone-date{font-size:11px;margin-bottom:24px}
-@media(max-width:760px){.writing-layout{grid-template-columns:minmax(0,1fr);gap:32px}.writing h2 br{display:none}.writing-milestone{padding:28px 20px}}
+.writing-intro{max-width:660px;color:var(--muted);margin-bottom:32px}
+.writing-projects{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}
+.writing-project{display:flex;flex-direction:column;min-width:0;border:1px solid var(--line);padding:28px;background:#14201b}
+.writing-project h3{font-size:27px;line-height:1.25;margin-bottom:18px;min-height:2.5em}
+.writing-project>p:not(.eyebrow){color:var(--muted);font-size:14px}
+.project-progress{margin-top:auto;padding:24px 0;border-top:1px solid var(--line)}
+.milestone-number{display:block;font-family:Georgia,serif;font-size:72px;line-height:1.1;color:var(--gold)}
+.project-progress .milestone-label{font-family:Georgia,serif;font-size:22px;line-height:1.4;color:var(--paper);margin:12px 0}
+.project-stage{font-size:12px;color:var(--muted);margin:0}
+.writing-project>.text-link{align-self:flex-start;white-space:normal;margin-top:10px}
+.writing-checkpoint{font-size:11px;color:var(--muted);margin:25px 0 0}
+.books .book-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+.book-cover.cover-placeholder{aspect-ratio:2480/3508;width:100%;height:auto;max-width:310px;background:radial-gradient(ellipse at 50% 35%,#596d5a,#253b31 70%)}
+.book-cover.cover-placeholder strong{font-size:clamp(24px,2.5vw,36px)}
+.book-cover.cover-placeholder>span{font-size:8px;letter-spacing:1.5px}
+.books>.shelf-note{padding:28px 0 0;margin-top:25px;border-top:1px solid #26362e33}
+.books>.shelf-note>span{float:right}
+.books>.shelf-note h3{font-size:27px;margin:0 0 12px}
+.books>.shelf-note h3 br{display:none}
+@media(max-width:1000px){.writing-projects{grid-template-columns:minmax(0,1fr)}.writing-project h3{min-height:0}.writing-project{padding:25px}.writing .section-heading{flex-wrap:wrap}}
+@media(max-width:760px){.books .book-grid{grid-template-columns:minmax(0,1fr);gap:40px}.books .book-card{max-width:460px;margin:0 auto;width:100%}.book-cover.cover-placeholder strong{font-size:36px}.book-cover.cover-placeholder>span{font-size:9px}}
 
 .series-lore-card .series-quiz-link{margin:20px 0 0}
 

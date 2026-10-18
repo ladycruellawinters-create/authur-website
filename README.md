@@ -68,3 +68,7 @@ Result cards are generated locally in the browser as 1080 × 1350 PNG files usin
 The homepage initially shows the first six selected social posts (keep newest first in the markup). When more exist, “See more” reveals the rest and “Show less” collapses them. The shared script derives the count automatically, so new posts need no changes to the toggle. With JavaScript disabled, all posts and their direct links remain visible.
 
 The News section also shows six entries initially, counting the welcome post as the oldest. A separate “See more” / “Show less” button reveals older news without affecting social posts. GitHub issue pages are fetched as needed so the feed is not truncated to six or 100 entries. The welcome post remains available if the API cannot be reached.
+
+## Multiple writing projects
+
+The homepage now shows three separate project cards in `#writing`: What Lies Beyond the Yew (11 chapters rewritten), My Neighbour Is a Vampire (23-chapter first draft complete; revision next), and My Neighbour Is a Witch (first draft, chapter 10 in progress). Keep an in-progress chapter distinct from completed chapters. Each project has its own stage and wording; update only the appropriate card when the author reports progress. The writing section’s checkpoint date is shared. Witch also has an accessible CSS cover placeholder on the bookshelf, labelled “Cover coming soon”; replace it with author-supplied artwork when available. Its description is intentionally limited to the author’s confirmed writing status, with no invented plot.
