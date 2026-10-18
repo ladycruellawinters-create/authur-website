@@ -46,3 +46,7 @@ The About text and “Currently writing” section are in `index.html`. The four
 ## House sorting quiz
 
 `sorting-quiz.html` is linked from the homepage’s Mynydd Draig card and the school lore page. Questions, options, house descriptions, and scoring live in `sorting-quiz.js`; layout is in `sorting-quiz.css`. Each of eight questions gives one point to its selected founding value. Every question offers all four values, and option order rotates evenly. A unique highest score gives the result; a tie prompts the reader to choose among only the tied values. Missing answers use native form validation. Restart clears all selections. Answers are kept only in page memory, with no storage, tracking, sign-up, or external service. The quiz is an imagined, spoiler-free activity inspired by the approved founders and values, not an event or ritual from the manuscript. No answers from Idris’s entrance riddles are included.
+
+## House shields
+
+The author-supplied Goch shield is stored unchanged in `assets/goch-house-shield.png` and appears in Goch’s house and common-room entries and the Goch quiz result. Quiz shield paths and alt text are optional fields on each house in `sorting-quiz.js`. Houses without supplied artwork show no shield. Results and restart clear the previous image, so Goch’s shield cannot carry over into another house’s result.

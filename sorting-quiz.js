@@ -1,5 +1,5 @@
 const houses = {
-  goch: { name: 'Goch', value: 'Courage', founder: 'Gwenllian Goch, Keeper of the Skies', colour: 'Red', accent: '#cc4e54', description: 'You’re drawn to courage: speaking up, taking a difficult first step, and standing beside someone who needs you. Goch honours the choice to act even when you feel afraid.' },
+  goch: { shield: 'assets/goch-house-shield.png', shieldAlt: 'Goch house shield: a black red kite on a red shield', name: 'Goch', value: 'Courage', founder: 'Gwenllian Goch, Keeper of the Skies', colour: 'Red', accent: '#cc4e54', description: 'You’re drawn to courage: speaking up, taking a difficult first step, and standing beside someone who needs you. Goch honours the choice to act even when you feel afraid.' },
   talar: { name: 'Talar', value: 'Curiosity', founder: 'Seren Talar, Guardian of the Rivers', colour: 'Blue', accent: '#518fd4', description: 'You’re drawn to curiosity: asking another question, trying a fresh approach, and finding wonder in unfamiliar things. Talar honours the desire to keep discovering.' },
   derwen: { name: 'Derwen', value: 'Wisdom', founder: 'Emrys Derwen, Custodian of the Forests', colour: 'Green', accent: '#5baf7c', description: 'You’re drawn to wisdom: listening carefully, reflecting on what you learn, and considering the consequences before you choose. Derwen honours understanding that grows with patience.' },
   idris: { name: 'Idris', value: 'Strength', founder: 'Bran ap Idris, Father of the Mountain', colour: 'Grey', accent: '#a5a8ac', description: 'You’re drawn to strength: staying steady through difficulties, following through on a promise, and helping others carry a heavy day. Idris honours endurance and resilience, as well as strength of heart.' }
@@ -96,6 +96,15 @@ function showResult(key) {
   tieForm.hidden = true;
   result.style.setProperty('--house-accent', house.accent);
   document.querySelector('#result-heading').textContent = `${house.name} House`;
+  const shield = document.querySelector('#result-shield');
+  shield.hidden = !house.shield;
+  if (house.shield) {
+    shield.src = house.shield;
+    shield.alt = house.shieldAlt;
+  } else {
+    shield.removeAttribute('src');
+    shield.alt = '';
+  }
   document.querySelector('#result-value').textContent = house.value;
   document.querySelector('#result-description').textContent = house.description;
   document.querySelector('#result-founder').textContent = house.founder;
@@ -141,6 +150,10 @@ resetButton.addEventListener('click', () => {
   tiedHouses = [];
   tieForm.hidden = true;
   result.hidden = true;
+  const shield = document.querySelector('#result-shield');
+  shield.hidden = true;
+  shield.removeAttribute('src');
+  shield.alt = '';
   resetButton.hidden = true;
   form.hidden = false;
   form.querySelector('input').focus();
