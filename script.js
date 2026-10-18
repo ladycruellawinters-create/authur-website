@@ -77,3 +77,25 @@ const loreBookmarks = {"school-appearance": "mynydd-draig.html", "school-arrival
 if (document.querySelector('#worlds') && loreBookmarks[window.location.hash.slice(1)]) {
   window.location.replace(loreBookmarks[window.location.hash.slice(1)] + window.location.hash);
 }
+
+// Keep the newest six selected social posts visible until a reader asks for more.
+const socialPosts = Array.from(document.querySelectorAll('#social-posts > .social-post'));
+const socialControls = document.querySelector('#social-post-controls');
+const socialToggle = document.querySelector('#toggle-social-posts');
+if (socialControls && socialToggle && socialPosts.length > 6) {
+  let expanded = false;
+  function updateSocialPosts() {
+    socialPosts.forEach((post, index) => { post.hidden = !expanded && index >= 6; });
+    socialToggle.setAttribute('aria-expanded', String(expanded));
+    socialToggle.textContent = expanded ? 'Show less' : 'See more';
+    document.querySelector('#social-post-count').textContent = expanded
+      ? `Showing all ${socialPosts.length} posts.`
+      : `Showing 6 of ${socialPosts.length} posts.`;
+  }
+  updateSocialPosts();
+  socialControls.hidden = false;
+  socialToggle.addEventListener('click', () => {
+    expanded = !expanded;
+    updateSocialPosts();
+  });
+}
