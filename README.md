@@ -54,3 +54,5 @@ The author-supplied Goch shield is stored unchanged in `assets/goch-house-shield
 The author-supplied Derwen shield is stored unchanged in `assets/derwen-house-shield.png`, with matching placements in Derwen’s house entry, common room, and quiz result. Lore shields have a 120px width limit directly on the images as well as in the stylesheet.
 
 The author-supplied Talar shield is stored unchanged in `assets/talar-house-shield.png`, with the same house, common-room, and quiz-result placements and sizing.
+
+The author-supplied Idris shield is stored unchanged in `assets/idris-house-shield.png`. All four houses now have artwork in their house information, common-room entry, and matching quiz result.
