@@ -1,0 +1,36 @@
+
+.letter-page-intro{padding-bottom:25px;background:#1e2b27}
+.letter-page-intro>.text-link{display:inline-block;margin-bottom:30px}
+.letter-page-intro h1{font-size:clamp(44px,6vw,76px);letter-spacing:-2px;margin:20px 0}
+.letter-page-intro>p:last-child{max-width:650px;color:var(--muted)}
+.letter-builder{display:grid;grid-template-columns:minmax(220px,280px) minmax(0,794px);gap:45px;align-items:start}
+.letter-tools{position:sticky;top:25px;min-width:0}
+.letter-tools h2{font-size:32px}
+.letter-tools label{display:block;font-size:14px;color:var(--paper)}
+#name-help,.letter-help,.letter-privacy{font-size:12px;color:var(--muted);line-height:1.7}
+.letter-tools input{display:block;width:100%;padding:13px;margin:12px 0 18px;background:#1e2b27;color:var(--paper);border:1px solid var(--gold);font:inherit}
+.letter-tools input:focus-visible{outline:2px solid var(--gold);outline-offset:4px}
+.letter-tools button{display:block;width:100%;cursor:pointer;font:inherit;font-size:13px;border:1px solid var(--gold);justify-content:center}
+.letter-tools button:disabled{opacity:.5;cursor:default}
+.letter-print{padding:14px 18px;background:transparent;color:var(--gold);margin:15px 0 20px}
+.letter-print:hover{background:#263b30}
+#letter-status{font-size:13px;color:var(--gold)}
+.acceptance-letter{min-width:0;width:100%;max-width:794px;min-height:1010px;padding:45px 48px 28px;position:relative;background:radial-gradient(ellipse at 30% 20%,#faf4df,#eee1bf);color:#302b23;box-shadow:0 15px 50px #0005;border:1px solid #bd9f61;font-family:Georgia,'Times New Roman',serif}
+.acceptance-letter::before{content:'';position:absolute;inset:14px;border:1px solid #b79b6666;pointer-events:none}
+.letterhead{text-align:center;border-bottom:1px solid #987d4b80;padding-bottom:18px;margin-bottom:24px}
+.school-crest{display:block;width:106px;max-width:100%;height:124px;object-fit:contain;margin:0 auto 10px}
+.letterhead h2{font-size:36px;line-height:1.15;letter-spacing:1px;margin:8px 0 12px}
+.letterhead .letter-motto{font-size:15px;line-height:1.5;margin:3px 0;font-style:italic}
+.letterhead .letter-motto-english{font-size:13px}
+.letterhead .letter-location{font-size:11px;letter-spacing:1.4px;text-transform:uppercase;margin:12px 0 0}
+.letter-body{font-size:16px;line-height:1.75}
+.letter-body>p{margin-bottom:20px}
+.letter-salutation{overflow-wrap:anywhere}
+.letter-signoff{margin-top:28px}
+.letter-signoff>p{margin-bottom:8px}
+.headmistress-signature{font-family:'Brush Script MT','Segoe Script','URW Chancery L',cursive;font-size:32px;font-style:italic;line-height:1.6;transform:rotate(-3deg);transform-origin:left center}
+.letter-keepsake{text-align:center;font-family:Arial,sans-serif;font-size:9px;letter-spacing:.5px;color:#756344;border-top:1px solid #987d4b50;padding-top:12px;margin:25px 0 0}
+@media(max-width:1150px){.letter-builder{grid-template-columns:minmax(0,1fr);gap:30px}.letter-tools{position:static;max-width:794px;width:100%;margin:0 auto}.acceptance-letter{margin:auto}}
+@media(max-width:500px){.acceptance-letter{padding:30px 24px 22px;min-height:0}.acceptance-letter::before{inset:9px}.letterhead h2{font-size:29px}.letterhead .letter-motto{font-size:13px}.letterhead .letter-motto-english{font-size:12px}.letter-body{font-size:14px;line-height:1.8}.headmistress-signature{font-size:28px}}
+@page{size:A4;margin:12mm}
+@media print{html,body{background:white!important;color:#302b23!important;margin:0!important;padding:0!important}.site-header,body>footer,.letter-page-intro,.letter-tools{display:none!important}.letter-builder{display:block!important;margin:0!important;padding:0!important}.acceptance-letter{width:100%;max-width:none;min-height:0;margin:0;box-shadow:none;padding:10mm 12mm 7mm;break-inside:avoid;print-color-adjust:exact;-webkit-print-color-adjust:exact}.school-crest{height:27mm;width:25mm}.letterhead{padding-bottom:4mm;margin-bottom:5mm}.letterhead h2{font-size:27pt;margin:2mm 0}.letterhead .letter-motto{font-size:10pt}.letterhead .letter-motto-english{font-size:9pt}.letter-body{font-size:11pt;line-height:1.6}.letter-body>p{margin-bottom:4mm}.letter-signoff{margin-top:5mm}.headmistress-signature{font-size:24pt}.letter-keepsake{font-size:7pt;margin-top:5mm;padding-top:3mm}}

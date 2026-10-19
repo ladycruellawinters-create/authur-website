@@ -76,3 +76,11 @@ The homepage now shows three separate project cards in `#writing`: What Lies Bey
 ## Illustrated series banners
 
 `mynydd-draig.html` and `my-neighbour-is.html` load `lore-banners.css` for their dedicated, non-seasonal hero illustrations. The generated artwork is stored in `assets/mynydd-lore-banner.png` and `assets/cedar-lore-banner.png`, inspired by the publicly described settings (Cedar Hollow is in Maine). The illustrations are decorative; headings and descriptions remain selectable HTML text, readable over a dark overlay. Banners crop responsively without changing the source artwork. The homepage Halloween theme and sorting quiz banner remain separate.
+
+## Personalised acceptance letter
+
+`acceptance-letter.html` is linked from the homepage’s Mynydd Draig card and its lore page. `acceptance-letter.js` updates the recipient using plain text only, accepts optional titles in the chosen name, and provides the browser print action. Names are limited to 80 characters, stay in page memory, and are not stored or transmitted. Without JavaScript, the unnamed letter remains printable using the browser menu.
+
+`acceptance-letter.css` provides the parchment-style screen preview and A4 print layout. Printing hides the website navigation, footer, and customisation controls; readers can choose Save as PDF and turn off browser headers/footers. The headmistress’s signature is styled text, not a scanned signature. The letter wording and term/arrival rules come from the author’s supplied acceptance letter, without house assignment or a fixed year.
+
+The school crest, `assets/mynydd-school-crest.png`, was generated using the author’s four shields as references: Goch/red kite/red top left; Derwen/stag/green top right; Talar/otter/blue bottom left; Idris/ram/grey bottom right. The motto is real HTML text below the image: Welsh “Ysbryd y ddraig, calon y mynydd” (marked `lang="cy"`) and English “Spirit of the dragon, heart of the mountain”. Replace the image file if the author later supplies revised school artwork.
