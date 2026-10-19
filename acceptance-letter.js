@@ -22,6 +22,7 @@ printButton.addEventListener('click', async () => {
   updateLetterName();
   try {
     await document.querySelector('.school-crest').decode();
+    await document.fonts.ready;
     window.print();
   } catch {
     letterStatus.textContent = 'The school crest hasn’t loaded yet. Please refresh and try printing again.';
