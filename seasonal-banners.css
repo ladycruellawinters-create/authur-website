@@ -1,0 +1,18 @@
+/* Scheduled homepage artwork; shared site and lore styles remain in styles.css. */
+.seasonal-hero{background:#121823;min-height:690px}
+.seasonal-art{background:linear-gradient(110deg,#121823,#283137)}
+.seasonal-art>img{width:100%;height:100%;object-fit:cover;object-position:right center;display:block}
+.seasonal-shade{position:absolute;inset:0;background:linear-gradient(90deg,rgba(10,17,24,.94) 0%,rgba(10,17,24,.86) 28%,rgba(10,17,24,.42) 51%,rgba(10,17,24,.02) 78%),linear-gradient(0deg,rgba(10,17,24,.75),transparent 23%)}
+.seasonal-hero .hero-content{padding-top:100px;padding-bottom:110px;max-width:900px}
+.seasonal-hero .eyebrow{color:#e8b77b}
+.seasonal-hero h1{font-size:clamp(54px,5.7vw,86px);line-height:1.1;letter-spacing:-2px;text-wrap:balance}
+.seasonal-hero .hero-description{max-width:420px;color:#e0dfd7;line-height:1.85}
+.seasonal-hero .button{background:#dfac70;color:#151d22}
+.seasonal-hero .button:hover{background:#f0c895}
+.hero-world-links{display:flex;flex-wrap:wrap;gap:12px 26px;margin-top:25px;font-size:12px;color:#e7c79f}
+.hero-world-links a{padding:6px 0;border-bottom:1px solid #e7c79f66}
+.hero-world-links a:hover{color:#fff}
+.hero-world-links span{margin-left:12px}
+.seasonal-hero .hero-bottom{color:#d7d8d1}
+@media(max-width:760px){.seasonal-hero{min-height:730px;height:auto;max-height:none}.seasonal-hero .hero-content{padding-top:75px;padding-bottom:125px}.seasonal-hero h1{font-size:clamp(43px,9vw,62px);letter-spacing:-1.5px}.seasonal-art>img{object-position:67% center}.seasonal-shade{background:linear-gradient(90deg,rgba(10,17,24,.88),rgba(10,17,24,.48)),linear-gradient(0deg,rgba(10,17,24,.8),transparent 30%)}.seasonal-hero .hero-description{max-width:340px}.seasonal-hero .hero-bottom{align-items:flex-end;gap:20px}.seasonal-hero .hero-bottom>span{max-width:150px}}
+@media(prefers-reduced-motion:reduce){.seasonal-hero *{animation:none;transition:none}}

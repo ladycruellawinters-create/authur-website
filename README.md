@@ -35,9 +35,6 @@ Third-party platforms control availability, sign-in, cookie requirements, and em
 
 The homepage links to `mynydd-draig.html` and `my-neighbour-is.html`. Each page has an on-page contents menu, the approved lore, links back to the homepage, and a link to the other series. Edit lore in its series page. Both pages share `styles.css` and `script.js`; news is only fetched on the homepage. Previous homepage lore section bookmarks redirect to the matching series-page section. Keep these filenames and section IDs stable when updating links.
 
-## Halloween homepage banner
-
-The homepage uses `halloween.css` and `assets/halloween-worlds.png` for its seasonal banner. The illustration is generated artwork inspired by the already-public settings of both series; it does not depict a scene from either manuscript. Banner wording and links live in `index.html`. The theme is intentionally static and can be replaced after Halloween; it does not change automatically with the calendar. Lore pages retain their existing appearance.
 
 ## Author introduction and writing milestone
 
@@ -75,7 +72,7 @@ The homepage now shows three separate project cards in `#writing`: What Lies Bey
 
 ## Illustrated series banners
 
-`mynydd-draig.html` and `my-neighbour-is.html` load `lore-banners.css` for their dedicated, non-seasonal hero illustrations. The generated artwork is stored in `assets/mynydd-lore-banner.png` and `assets/cedar-lore-banner.png`, inspired by the publicly described settings (Cedar Hollow is in Maine). The illustrations are decorative; headings and descriptions remain selectable HTML text, readable over a dark overlay. Banners crop responsively without changing the source artwork. The homepage Halloween theme and sorting quiz banner remain separate.
+`mynydd-draig.html` and `my-neighbour-is.html` load `lore-banners.css` for their dedicated, non-seasonal hero illustrations. The generated artwork is stored in `assets/mynydd-lore-banner.png` and `assets/cedar-lore-banner.png`, inspired by the publicly described settings (Cedar Hollow is in Maine). The illustrations are decorative; headings and descriptions remain selectable HTML text, readable over a dark overlay. Banners crop responsively without changing the source artwork. The scheduled homepage banners and sorting quiz banner remain separate.
 
 ## Personalised acceptance letter
 
@@ -94,3 +91,20 @@ The school crest, `assets/mynydd-school-crest.png`, was generated using the auth
 `bookmarks.html` contains three downloadable, text-free adaptations of the book covers: What Lies Beyond the Yew, My Neighbour Is a Vampire and My Neighbour Is a Witch. Artwork is in `assets/bookmarks/`. Each card offers its full-resolution PNG, and both lore pages link to the collection. The house and additional Cedar Hollow bookmark designs have been withdrawn at the author’s request.
 
 `bookmarks.js` lets readers select designs and prints only those selected, up to three per A4 sheet. `bookmarks.css` sets each printed bookmark to 50 × 150 mm with a light cutting outline. The complete one-page PDF is available directly, including without JavaScript. If designs change, regenerate `assets/bookmarks/ct-winters-bookmarks.pdf` from the page’s all-selected print layout, with browser headers and footers disabled. Keep bookmark artwork free of titles and author lettering.
+
+## Scheduled homepage banners
+
+The homepage loads `seasonal-banners.css` and `seasonal-banners.js`. The default artwork pays homage to both Mynydd Draig and Cedar Hollow. Banner copy and artwork switch together according to this recurring, full-month schedule, using Europe/London time:
+
+| Month | Theme |
+| --- | --- |
+| February | Valentine’s Day |
+| March or April, whichever contains Gregorian Easter Sunday that year | Easter |
+| September | Autumn |
+| October | Halloween |
+| December | Christmas |
+| All other months | Default: both story worlds |
+
+The script calculates Easter each year; no annual date updates, scheduled deployments or external services are needed. It checks on each visit, once a minute in open tabs and when a reader returns to the tab. Without JavaScript, or if seasonal artwork fails to load, the neutral default remains available. The existing Halloween artwork is retained at `assets/halloween-worlds.png`; the five new illustrations are in `assets/banners/`. Edit copy or image paths in the `themes` object in `seasonal-banners.js`. These homepage changes do not alter either series lore banner.
+
+Run the date-rule checks with `node --test tests/seasonal-banners.test.cjs`. They cover recurring months, March/April Easter, leap years and UK month boundaries in winter and summer time.
