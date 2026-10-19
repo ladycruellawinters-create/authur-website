@@ -88,3 +88,9 @@ The school crest, `assets/mynydd-school-crest.png`, was generated using the auth
 ### The Olive and Adder menu
 
 `olive-and-adder.html` is a fictional reader menu linked from Cedar Hollow’s local favourites. It combines manuscript dishes with author-approved Greek and American additions, with descriptive Ancient Greek labels, local handwriting fonts and a print/save-as-PDF button. Edit the dishes in the HTML and the layout in `olive-and-adder.css`.
+
+## Reader bookmarks
+
+`bookmarks.html` contains eleven downloadable bookmark designs: three text-free adaptations of the cover art, four individual Mynydd Draig houses, the combined school crest, and three Cedar Hollow scenes. Artwork is in `assets/bookmarks/`; the original covers and shields remain the source references. Each card offers its full-resolution PNG. Both lore pages link to the collection.
+
+`bookmarks.js` lets readers select designs and prints only those selected, three per A4 sheet. `bookmarks.css` sets each printed bookmark to 50 × 150 mm with a light cutting outline. The complete four-page PDF is available directly, including without JavaScript. If designs change, regenerate `assets/bookmarks/ct-winters-bookmarks.pdf` from the page’s all-selected print layout, with browser headers and footers disabled. Keep cover-adapted artwork free of titles and author lettering, and preserve the four house animals, colours and inward-facing animals on the combined crest.
