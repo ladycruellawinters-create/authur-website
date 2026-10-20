@@ -13,7 +13,7 @@
     "house": "derwen",
     "category": "Study company",
     "title": "Quiet company wanted",
-    "body": "A few of us are putting together a quiet study group. Bring your own notes and something you can read without explaining every sentence aloud.\n\nCompanionable silence counts as participation.",
+    "body": "A few of us are putting together a quiet study group in the library. Bring your own notes and something you can read without explaining every sentence aloud.\n\nCompanionable silence counts as participation.",
     "signature": "Carys Bowen · Derwen",
     "publishAt": "2026-10-20T00:00:00+01:00"
   },
@@ -110,27 +110,27 @@
   {
     "id": "woodroofe-broom-parking",
     "house": "school",
-    "category": "From the flying professor",
-    "title": "Proper parking, please",
-    "body": "Please put practice brooms back in their proper places after flying.\n\nA badly balanced broom becomes a bothersome barrier. Propping one across a passage is particularly poor planning.\n\nLeave clear corridors for careful colleagues.",
-    "signature": "Professor Woodroofe",
+    "category": "From the headmistress",
+    "title": "A little help for Halloween",
+    "body": "Preparations for the Halloween feast and ghost dance on 30 October may begin this week. Students who are up to date with their classes are encouraged to lend a hand with the decorations.\n\nPlease finish any outstanding work before joining in. A welcoming celebration is made by many willing hands, and there will be time to enjoy the results together.",
+    "signature": "Headmistress Imelda Penrose",
     "publishAt": "2026-10-23T09:00:00+01:00"
   },
   {
     "id": "morwenna-names-and-dates",
     "house": "school",
     "category": "From the history professor",
-    "title": "A name, a date, a little patience",
-    "body": "If the names and dates in your history notes have begun to blur together, try setting them out one small section at a time.\n\nYou need not untangle everything at once. Bring the parts that still puzzle you to our next lesson, and we shall look at them together.",
+    "title": "A little time to catch up",
+    "body": "If you are using this weekend to catch up on history, begin with the part that has been troubling you most. You need not untangle everything at once.\n\nBring your questions to our next lesson. There is no need to hurry past something you do not yet understand, even when the decorations are looking very inviting.",
     "signature": "Professor Morwenna · Deputy Headmistress",
     "publishAt": "2026-10-25T09:00:00+00:00"
   },
   {
     "id": "emlyn-margin-notes",
     "house": "talar",
-    "category": "A small correction",
-    "title": "Those are notes, not instructions",
-    "body": "To whoever borrowed my notebook: the arrows in the margins link one thought to another. They are not directions around the school.\n\nI am sorry if the diagram brought you back to the same page three times. It did that to me as well.",
+    "category": "Feast preparations",
+    "title": "A diagram is not a decoration",
+    "body": "If anyone finds a page of river sketches among the Halloween decorations, it belongs in my notebook.\n\nI appreciate the enthusiasm, but the arrows in the margins were meant to connect ideas. They are not instructions for where to hang things.\n\nPlease ask before pinning up somebody else’s notes.",
     "signature": "Emlyn Merrick · Talar",
     "publishAt": "2026-10-28T09:00:00+00:00"
   },
@@ -138,17 +138,17 @@
     "id": "morwyn-borrowed-belongings",
     "house": "school",
     "category": "From the Head of Idris House",
-    "title": "Borrowed is not inherited",
-    "body": "Please return borrowed belongings when you have finished with them. This includes books, blankets and the chair you moved because it was “only for a moment.”\n\nA polite request before borrowing is generally more successful than an elaborate explanation afterwards.",
+    "title": "Before the autumn break",
+    "body": "Today’s Halloween feast and ghost dance take place before the three-day autumn break. To those going home afterwards, I wish you a pleasant visit.\n\nPlease collect your belongings and return anything you have borrowed before leaving. If your trunk needs a label, this is an excellent moment to give it one.",
     "signature": "Professor Morwyn · Head of Idris House",
     "publishAt": "2026-10-30T09:00:00+00:00"
   },
   {
     "id": "carys-spare-parchment",
     "house": "derwen",
-    "category": "Study company",
-    "title": "A little room on the page",
-    "body": "I have some spare parchment for the older students joining our study group. Please ask if you need a sheet.\n\nIf your notes have reached the point where the margins have margins, it may be time to start a fresh page.",
+    "category": "Over the break",
+    "title": "For those staying at school",
+    "body": "For anyone spending the autumn break here: I shall have a book and some spare parchment if you would like quiet company.\n\nThere is also a feast in the dining hall for the students and staff staying over the holidays. Being away from home need not mean spending the break alone.",
     "signature": "Carys Bowen · Derwen",
     "publishAt": "2026-11-01T09:00:00+00:00"
   },
@@ -184,7 +184,7 @@
     "house": "goch",
     "category": "Study company",
     "title": "The long way is not compulsory",
-    "body": "If anyone among the older students would like company while we work through our notes, please come and ask.\n\nYou do not need to make a dramatic entrance. After the scarf incident, I am trying to show a little restraint.",
+    "body": "If anyone among the older students would like company while we work through our notes in the library, please come and ask.\n\nYou do not need to make a dramatic entrance. After the scarf incident, I am trying to show a little restraint.",
     "signature": "Llio Pritchard · Goch",
     "publishAt": "2026-11-11T09:00:00+00:00"
   },
