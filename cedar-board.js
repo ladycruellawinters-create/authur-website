@@ -15,14 +15,18 @@
     if (!loaded) return;
     const now = Date.now();
     const today = ukDate(new Date(now));
+    const clock = new Intl.DateTimeFormat('en-GB', { timeZone: 'Europe/London', hour: '2-digit', minute: '2-digit', hourCycle: 'h23' }).format(new Date(now));
+    const todayMinute = Number(clock.slice(0, 2)) * 60 + Number(clock.slice(3, 5));
     const visible = notices.map(notice => {
       if (typeof notice.releaseOffsetDays !== 'number') return notice;
       if (!releaseDate) return null;
       const publishAt = new Date(Date.parse(releaseDate) + notice.releaseOffsetDays * 86400000).toISOString().slice(0, 10);
-      return { ...notice, publishAt, releaseRelative: true };
+      const time = /^([01]\d|2[0-3]):[0-5]\d$/.test(notice.releaseTime || '') ? notice.releaseTime : '00:00';
+      const releaseMinute = Number(time.slice(0, 2)) * 60 + Number(time.slice(3, 5));
+      return { ...notice, publishAt, releaseMinute, releaseRelative: true };
     }).filter(notice => notice && (notice.releaseRelative
-      ? notice.publishAt <= today : Date.parse(notice.publishAt) <= now))
-      .sort((a, b) => Date.parse(b.publishAt) - Date.parse(a.publishAt));
+      ? (notice.publishAt < today || (notice.publishAt === today && notice.releaseMinute <= todayMinute)) : Date.parse(notice.publishAt) <= now))
+      .sort((a, b) => (Date.parse(b.publishAt) + (b.releaseMinute || 0) * 60000) - (Date.parse(a.publishAt) + (a.releaseMinute || 0) * 60000));
     const ids = visible.map(notice => notice.id).join('|');
     if (ids === visibleIds && noticeList.childElementCount) return;
     const fragment = document.createDocumentFragment();

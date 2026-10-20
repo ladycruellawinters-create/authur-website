@@ -81,30 +81,243 @@
     "paper": "green"
   },
   {
-    "id": "agnes-memorial",
-    "category": "In remembrance",
-    "title": "Rest in peace, Agnes Hart",
-    "body": "Cedar Hollow has lost a dear neighbour and a generous friend.\n\nIf Agnes ever made you a cup of tea, sent you home with something she had baked, or made your day a little kinder, take a moment to remember her.\n\nOur town will miss her.",
-    "signature": "Margaret Ashcombe",
+    "id": "has-anyone-seen-agnes-noah",
+    "category": "Checking on a neighbour",
+    "title": "Has anyone seen Agnes?",
+    "body": "Has anyone seen Agnes Hart today? I called at Number 5 and couldn’t get an answer.\n\nIf she’s stopped in with one of you, would you ask her to let us know she’s all right?",
+    "signature": "Noah Carter",
     "releaseOffsetDays": -14,
+    "releaseTime": "08:00",
+    "paper": "blue"
+  },
+  {
+    "id": "has-anyone-seen-agnes-cassia",
+    "category": "Checking on a neighbour",
+    "title": "Agnes hasn’t been in",
+    "body": "Agnes hasn’t stopped by the diner, and I haven’t heard from her.\n\nHas anyone spoken to her since yesterday? Please leave a message if you know where she is.",
+    "signature": "Cassia · The Olive and Adder",
+    "releaseOffsetDays": -14,
+    "releaseTime": "11:00",
     "paper": "cream"
   },
   {
-    "id": "agnes-forever-missed",
+    "id": "has-anyone-seen-agnes-daniel",
+    "category": "Checking on a neighbour",
+    "title": "Still no word?",
+    "body": "I’ve checked at the shop and along Maple Grove. No sign of Agnes.\n\nIf anyone has heard from her, please let Margaret know.",
+    "signature": "Daniel Blackwood · Twilight Books",
+    "releaseOffsetDays": -14,
+    "releaseTime": "14:00",
+    "paper": "green"
+  },
+  {
+    "id": "margaret-looking-for-agnes",
+    "category": "Official community notice",
+    "title": "Regarding Agnes Hart",
+    "body": "A reminder that the community board is intended for official notices.\n\nThat said, I understand everyone’s concern. We are looking into Agnes’s whereabouts. If you have seen or heard from her, please let me know directly. I will post an update as soon as there is news.",
+    "signature": "Margaret Ashcombe",
+    "releaseOffsetDays": -14,
+    "releaseTime": "18:00",
+    "paper": "blue"
+  },
+  {
+    "id": "arthur-agnes-announcement",
+    "category": "A message to the community",
+    "title": "Sad news about Agnes Hart",
+    "body": "It is with great sadness that I must let everyone know that Agnes Hart was found in her car at the town border in the early hours of this morning. She had sadly passed away.\n\nI know how many of you have been looking for her and hoping for good news. I am so sorry to bring you this instead. Please look after one another today.",
+    "signature": "Arthur Bell",
+    "releaseOffsetDays": -13,
+    "releaseTime": "07:00",
+    "paper": "cream"
+  },
+  {
+    "id": "margaret-agnes-funeral",
+    "category": "Official community notice",
+    "title": "Agnes Hart’s funeral",
+    "body": "Agnes’s funeral will be held the following weekend. Everyone in Cedar Hollow is welcome to attend and pay their respects.\n\nShe gave so much of herself to this community. Let us come together to remember her with the same kindness she showed us.",
+    "signature": "Margaret Ashcombe",
+    "releaseOffsetDays": -13,
+    "releaseTime": "10:00",
+    "paper": "blue"
+  },
+  {
+    "id": "agnes-memorial-noah",
+    "category": "In remembrance",
+    "title": "Rest in peace, Agnes",
+    "body": "I keep expecting you to come through the door.\n\nThank you for every kind word and every time you made an ordinary day feel a little better. You are already missed.",
+    "signature": "Noah Carter",
+    "releaseOffsetDays": -13,
+    "releaseTime": "15:00",
+    "paper": "blue"
+  },
+  {
+    "id": "agnes-memorial-cassia",
+    "category": "In remembrance",
+    "title": "Your usual place",
+    "body": "There are people who make a place feel warmer just by being in it. Agnes was one of them.\n\nThe diner won’t feel quite the same without her. Rest peacefully, dear friend.",
+    "signature": "Cassia · The Olive and Adder",
+    "releaseOffsetDays": -12,
+    "releaseTime": "09:00",
+    "paper": "cream"
+  },
+  {
+    "id": "agnes-memorial-daniel",
     "category": "In remembrance",
     "title": "Forever missed",
     "body": "Some people leave a space in a town that nobody else can fill.\n\nThank you for the kindness, the conversations and the countless small things, Agnes. You will be remembered on Maple Grove and far beyond it.",
     "signature": "Daniel Blackwood · Twilight Books",
-    "releaseOffsetDays": -12,
+    "releaseOffsetDays": -11,
+    "releaseTime": "12:00",
+    "paper": "green"
+  },
+  {
+    "id": "agnes-memorial-maribel",
+    "category": "In remembrance",
+    "title": "All the little things",
+    "body": "It is the little things I find myself remembering: a conversation that lasted longer than planned, a familiar smile, the way you always had time for someone.\n\nI wish we had a little more time, Agnes.",
+    "signature": "Maribel Finch · Second Chances",
+    "releaseOffsetDays": -10,
+    "releaseTime": "10:00",
+    "paper": "pink"
+  },
+  {
+    "id": "agnes-memorial-lucian",
+    "category": "In remembrance",
+    "title": "A neighbour and a friend",
+    "body": "Agnes Hart was part of the heart of this community. Her kindness will be remembered long after the flowers have faded.\n\nMy thoughts are with everyone who loved her.",
+    "signature": "Lucian Cross",
+    "releaseOffsetDays": -9,
+    "releaseTime": "16:00",
+    "paper": "green"
+  },
+  {
+    "id": "agnes-memorial-maple-grove",
+    "category": "In remembrance",
+    "title": "Maple Grove remembers",
+    "body": "A few of us have been sharing our memories of Agnes. Somehow, every story comes back to a moment when she made someone feel less alone.\n\nWhat a lovely thing to leave behind.",
+    "signature": "Neighbours on Maple Grove",
+    "releaseOffsetDays": -8,
+    "releaseTime": "11:00",
+    "paper": "pink"
+  },
+  {
+    "id": "agnes-memorial-flowers",
+    "category": "In remembrance",
+    "title": "Flowers for Agnes",
+    "body": "Thank you to everyone who has left flowers and kind words in Agnes’s memory.\n\nPlease make room for one another when you stop to remember her. There are many people who have something to say goodbye to.",
+    "signature": "Margaret Ashcombe",
+    "releaseOffsetDays": -7,
+    "releaseTime": "09:00",
+    "paper": "blue"
+  },
+  {
+    "id": "agnes-memorial-arthur",
+    "category": "In remembrance",
+    "title": "Thinking of you, Agnes",
+    "body": "There is never enough time with the people who make a town feel like home.\n\nYou will be missed, Agnes. More than these few words can say.",
+    "signature": "Arthur Bell",
+    "releaseOffsetDays": -6,
+    "releaseTime": "14:00",
+    "paper": "cream"
+  },
+  {
+    "id": "agnes-memorial-noah-again",
+    "category": "In remembrance",
+    "title": "Still thinking of you",
+    "body": "I caught myself thinking, “I must tell Agnes.”\n\nIt will take a while to stop doing that. Perhaps I never quite will.",
+    "signature": "Noah Carter",
+    "releaseOffsetDays": -5,
+    "releaseTime": "10:00",
+    "paper": "blue"
+  },
+  {
+    "id": "agnes-memorial-cassia-again",
+    "category": "In remembrance",
+    "title": "A cup for an old friend",
+    "body": "Today I’m remembering the conversations that began with “just a quick cup” and lasted far longer.\n\nI would happily let the coffee go cold for one more of those.",
+    "signature": "Cassia · The Olive and Adder",
+    "releaseOffsetDays": -4,
+    "releaseTime": "13:00",
+    "paper": "cream"
+  },
+  {
+    "id": "agnes-memorial-maribel-again",
+    "category": "In remembrance",
+    "title": "Kindness stays",
+    "body": "A town is made of its people and all the small kindnesses they leave behind.\n\nAgnes left us plenty to carry on. Let’s remember to do that.",
+    "signature": "Maribel Finch · Second Chances",
+    "releaseOffsetDays": -3,
+    "releaseTime": "11:00",
+    "paper": "pink"
+  },
+  {
+    "id": "agnes-memorial-daniel-again",
+    "category": "In remembrance",
+    "title": "Not forgotten",
+    "body": "The board will fill with other notices in time. That doesn’t mean we have stopped remembering.\n\nRest in peace, Agnes. You are part of this place.",
+    "signature": "Daniel Blackwood · Twilight Books",
+    "releaseOffsetDays": -2,
+    "releaseTime": "17:00",
+    "paper": "green"
+  },
+  {
+    "id": "agnes-memorial-margaret",
+    "category": "In remembrance",
+    "title": "Thank you, Cedar Hollow",
+    "body": "Thank you for the care you have shown one another, and for every memory of Agnes you have shared.\n\nLet us keep looking after our neighbours. I can think of no better way to honour her.",
+    "signature": "Margaret Ashcombe",
+    "releaseOffsetDays": -1,
+    "releaseTime": "12:00",
     "paper": "blue"
   },
   {
     "id": "welcome-oliver",
-    "category": "On Maple Grove",
-    "title": "A welcome for our new neighbour",
-    "body": "A little reminder to give Oliver Hart a warm welcome as he settles into Number 5.\n\nMoving house is quite enough to be getting on with. Perhaps let him finish unpacking before explaining everybody’s more unusual habits.",
+    "category": "Official community notice",
+    "title": "A welcome for our newest resident",
+    "body": "Please join me in welcoming Oliver Hart, Agnes’s great-nephew, to Number 5 Maple Grove.\n\nI hope everyone will offer him a warm welcome and treat him with the kindness and generosity Agnes showed us over the years. Let us help him feel at home.",
     "signature": "Margaret Ashcombe",
     "releaseOffsetDays": 0,
+    "releaseTime": "09:00",
     "paper": "green"
+  },
+  {
+    "id": "after-release-diner",
+    "category": "From the diner",
+    "title": "Back to the usual questions",
+    "body": "Yes, we still have pancakes. No, I still cannot tell your future from them.\n\nCome in, have something warm and be kind to whoever ends up in the next booth.",
+    "signature": "Cassia · The Olive and Adder",
+    "releaseOffsetDays": 1,
+    "releaseTime": "10:00",
+    "paper": "cream"
+  },
+  {
+    "id": "oliver-new-neighbour",
+    "category": "A note from your new neighbour",
+    "title": "Hello, Maple Grove",
+    "body": "Hello, everyone. I’m Oliver, the new face at Number 5.\n\nThank you for making me feel welcome. If you see me standing outside looking as though I’ve forgotten why I came out, I’m probably still trying to remember where I packed something.",
+    "signature": "Oliver Hart · 5 Maple Grove",
+    "releaseOffsetDays": 2,
+    "releaseTime": "12:00",
+    "paper": "blue"
+  },
+  {
+    "id": "after-release-bookshop",
+    "category": "A polite reminder",
+    "title": "A bookshop reminder",
+    "body": "A reminder that a bookmark is the preferred way to keep your place.\n\nIf you have left something less ordinary between the pages, please collect it. We are running out of suitable drawers.",
+    "signature": "Daniel Blackwood · Twilight Books",
+    "releaseOffsetDays": 4,
+    "releaseTime": "11:00",
+    "paper": "green"
+  },
+  {
+    "id": "oliver-unpacking",
+    "category": "Neighbourhood matters",
+    "title": "One last box. Possibly.",
+    "body": "Does anyone have a reliable method for finding the one thing you need in a house full of boxes?\n\nPlease note that “remember where you put it” has already been suggested.",
+    "signature": "Oliver Hart · 5 Maple Grove",
+    "releaseOffsetDays": 7,
+    "releaseTime": "15:00",
+    "paper": "pink"
   }
 ]
