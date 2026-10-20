@@ -116,3 +116,7 @@ Run the date-rule checks with `node --test tests/seasonal-banners.test.cjs`. The
 ## Reader extras navigation
 
 The homepage `#reader-extras` section groups bookmarks, the guestbook, sorting quiz and acceptance letter. Its first two cards highlight bookmarks and the guestbook. Every page’s main menu links to this section, and the homepage hero also offers a direct link. At tablet widths the menu collapses to keep all links accessible without crowding the author wordmark.
+
+## Cedar Hollow Community Board
+
+`cedar-board.html` is an author-written fictional noticeboard linked from Reader extras and Cedar Hollow lore. Edit `data/cedar-notices.json` to add notices or schedule their display. See [CEDAR-BOARD.md](CEDAR-BOARD.md) for date formats, writing guidance and the public visibility of scheduled text. Reader comments remain in the separate moderated guestbook.

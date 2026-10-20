@@ -1,0 +1,110 @@
+[
+  {
+    "id": "pancake-prophecies",
+    "category": "From the diner",
+    "title": "They’re pancakes. Just pancakes.",
+    "body": "The breakfast special does not include a prophecy. Please stop asking me to interpret your pancakes.\n\nIf the syrup happens to spell something, turn the plate around and carry on eating.",
+    "signature": "Cassia · The Olive and Adder",
+    "publishAt": "2026-10-20T00:00:00+01:00",
+    "paper": "cream"
+  },
+  {
+    "id": "bookshop-returns",
+    "category": "A polite reminder",
+    "title": "A note about returns",
+    "body": "Books should be returned in the condition in which they were purchased. Being haunted is not considered ordinary wear.\n\nIf a book has begun whispering, please bring it to the counter. Do not teach it your address.",
+    "signature": "Daniel Blackwood · Twilight Books",
+    "publishAt": "2026-10-20T00:00:00+01:00",
+    "paper": "green"
+  },
+  {
+    "id": "quiet-hours",
+    "category": "Neighbourhood matters",
+    "title": "Regarding the howling",
+    "body": "Whoever is howling after midnight: some of us have work in the morning.\n\nThis is a request for consideration, not an invitation to form a choir.",
+    "signature": "A tired resident of Maple Grove",
+    "publishAt": "2026-10-20T00:00:00+01:00",
+    "paper": "pink"
+  },
+  {
+    "id": "gardening-morning",
+    "category": "Around town",
+    "title": "Community gardening morning",
+    "body": "Volunteers welcome on Saturday morning. Please bring gloves, a trowel and clearly labelled plants.\n\nI cannot spend another morning identifying which ones bite. If yours requires a muzzle, kindly mention that before we unload it.",
+    "signature": "Margaret Ashcombe",
+    "publishAt": "2026-10-20T00:00:00+01:00",
+    "paper": "blue"
+  },
+  {
+    "id": "wandering-umbrella",
+    "category": "Lost & found",
+    "title": "One umbrella. Very independent.",
+    "body": "Found walking down Main Street without its owner. Black handle, excellent manners, strongly opposed to being folded.\n\nPlease collect it before the weather improves and it decides to go sightseeing.",
+    "signature": "Left with the town hall’s lost property",
+    "publishAt": "2026-10-20T00:00:00+01:00",
+    "paper": "cream"
+  },
+  {
+    "id": "second-chances-mirror",
+    "category": "In the shop window",
+    "title": "A mirror with opinions",
+    "body": "A lovely dressing mirror has arrived at Second Chances. Beautiful frame, a little silvering at the edges, and very generous with compliments.\n\nPlease do not ask it to settle an argument. We have only just persuaded the last customers to leave.",
+    "signature": "Maribel Finch · Second Chances",
+    "publishAt": "2026-10-20T00:00:00+01:00",
+    "paper": "pink"
+  },
+  {
+    "id": "agnes-tea",
+    "category": "A neighbourly invitation",
+    "title": "The kettle is on",
+    "body": "If you find yourself passing Number 5 Maple Grove, do knock. There is usually tea, and I have made rather more biscuits than one person can reasonably eat.\n\nPlease use the front door. The garden gate and I are not currently on speaking terms.",
+    "signature": "Agnes Hart · 5 Maple Grove",
+    "publishAt": "2026-10-20T00:00:00+01:00",
+    "paper": "cream"
+  },
+  {
+    "id": "noah-coffee",
+    "category": "From the café",
+    "title": "A small correction",
+    "body": "The shape in your coffee is supposed to be a leaf.\n\nIt is not a warning, an omen or a portrait of your neighbour. I am practising. Please be encouraging.",
+    "signature": "Noah Carter",
+    "publishAt": "2026-10-20T00:00:00+01:00",
+    "paper": "blue"
+  },
+  {
+    "id": "lucian-paperwork",
+    "category": "A friendly reminder",
+    "title": "Signatures, please",
+    "body": "Please read the whole document before signing it. This includes the small print, the footnotes and any clauses that attempt to move to the next page.\n\nA reassuring smile is not a substitute for legal advice. Even mine.",
+    "signature": "Lucian Cross · Cross & Holloway",
+    "publishAt": "2026-10-20T00:00:00+01:00",
+    "paper": "green"
+  },
+  {
+    "id": "agnes-memorial",
+    "category": "In remembrance",
+    "title": "Rest in peace, Agnes Hart",
+    "body": "Cedar Hollow has lost a dear neighbour and a generous friend.\n\nIf Agnes ever made you a cup of tea, sent you home with something she had baked, or made your day a little kinder, take a moment to remember her.\n\nOur town will miss her.",
+    "signature": "Margaret Ashcombe",
+    "releaseOffsetDays": -14,
+    "paper": "cream"
+  },
+  {
+    "id": "agnes-forever-missed",
+    "category": "In remembrance",
+    "title": "Forever missed",
+    "body": "Some people leave a space in a town that nobody else can fill.\n\nThank you for the kindness, the conversations and the countless small things, Agnes. You will be remembered on Maple Grove and far beyond it.",
+    "signature": "Daniel Blackwood · Twilight Books",
+    "releaseOffsetDays": -12,
+    "paper": "blue"
+  },
+  {
+    "id": "welcome-oliver",
+    "category": "On Maple Grove",
+    "title": "A welcome for our new neighbour",
+    "body": "A little reminder to give Oliver Hart a warm welcome as he settles into Number 5.\n\nMoving house is quite enough to be getting on with. Perhaps let him finish unpacking before explaining everybody’s more unusual habits.",
+    "signature": "Margaret Ashcombe",
+    "releaseOffsetDays": 0,
+    "paper": "green"
+  }
+]
