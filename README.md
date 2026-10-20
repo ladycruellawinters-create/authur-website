@@ -120,3 +120,9 @@ The homepage `#reader-extras` section groups bookmarks, the guestbook, sorting q
 ## Cedar Hollow Community Board
 
 `cedar-board.html` is an author-written fictional noticeboard linked from Reader extras and Cedar Hollow lore. Edit `data/cedar-notices.json` to add notices or schedule their display. See [CEDAR-BOARD.md](CEDAR-BOARD.md) for date formats, writing guidance and the public visibility of scheduled text. Reader comments remain in the separate moderated guestbook.
+
+## Twilight Books and public resident introductions
+
+`twilight-books.html` is a fictional visit to Daniel’s after-sunset bookshop, linked from Reader extras and Cedar Hollow local favourites. It includes an original in-character welcome, three explicitly imaginary shelf titles, Evelyn’s monthly book club, and links to the community board for future announcements. No meeting dates, reading list or extra readings have been invented as scheduled events. `assets/twilight-books-window.png` reuses the earlier generated bookshop illustration; `twilight-books.css` provides the layout.
+
+The public neighbour introductions in `my-neighbour-is.html` use only spoiler-free personality, job and hobby details approved for these updates. They include Oliver, Noah, Agnes, Arthur, Daniel, Lucian, Evelyn, Archie, Margaret and Maribel. Confidential identities and character histories remain outside this repository. New recommendations are website extras, not manuscript excerpts or real books for sale.
