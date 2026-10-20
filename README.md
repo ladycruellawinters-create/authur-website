@@ -108,3 +108,7 @@ The homepage loads `seasonal-banners.css` and `seasonal-banners.js`. The default
 The script calculates Easter each year; no annual date updates, scheduled deployments or external services are needed. It checks on each visit, once a minute in open tabs and when a reader returns to the tab. Without JavaScript, or if seasonal artwork fails to load, the neutral default remains available. The existing Halloween artwork is retained at `assets/halloween-worlds.png`; the five new illustrations are in `assets/banners/`. Edit copy or image paths in the `themes` object in `seasonal-banners.js`. These homepage changes do not alter either series lore banner.
 
 Run the date-rule checks with `node --test tests/seasonal-banners.test.cjs`. They cover recurring months, March/April Easter, leap years and UK month boundaries in winter and summer time.
+
+## Reader guestbook
+
+`guestbook.html` uses CommentBox.io project `5640986751401984-proj` for shared reader messages. The author confirmed approval is enabled in the provider dashboard on 20 October 2026. See [GUESTBOOK.md](GUESTBOOK.md) for moderation, canonical thread identity and the remaining real-submission check. Configuration is in `guestbook-config.js`; only the public project ID is stored. The homepage invites readers to visit the guestbook.

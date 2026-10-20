@@ -1,6 +1,6 @@
-// Paste only the public data-app-id from the author’s Cusdis dashboard here.
-// Keep signing closed until pre-publication moderation is confirmed there.
+// Public CommentBox project ID supplied by the author.
+// The author confirmed pre-publication approval is enabled on 20 October 2026.
 window.ctWintersGuestbook = {
-  appId: '',
-  moderationConfirmed: false
+  projectId: '5640986751401984-proj',
+  moderationConfirmed: true
 };

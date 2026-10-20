@@ -1,25 +1,37 @@
 (() => {
   const config = window.ctWintersGuestbook;
-  const thread = document.querySelector('#cusdis_thread');
+  const thread = document.querySelector('#guestbook-thread');
   const notice = document.querySelector('#guestbook-unavailable');
   const serviceNote = document.querySelector('#guestbook-service-note');
   if (!thread || !config || !config.moderationConfirmed ||
-      !/^[a-zA-Z0-9-]{8,100}$/.test(config.appId || '')) return;
+      !/^\d+-proj$/.test(config.projectId || '')) return;
 
-  thread.dataset.appId = config.appId;
   thread.hidden = false;
   serviceNote.hidden = false;
   notice.querySelector('h3').textContent = 'Opening the guestbook…';
   notice.querySelector('p').textContent = 'Your message will appear after approval.';
-  const embed = document.createElement('script');
-  embed.src = 'https://cusdis.com/js/cusdis.es.js';
-  embed.async = true;
-  embed.addEventListener('error', () => {
+  function showFailure() {
     notice.hidden = false;
     notice.querySelector('h3').textContent = 'The guestbook couldn’t be opened.';
-    notice.querySelector('p').textContent = 'Please refresh to try again. No message has been sent.';
+    notice.querySelector('p').textContent = 'Please refresh to try again. No message has been sent by this page.';
+  }
+  const embed = document.createElement('script');
+  embed.src = 'https://unpkg.com/commentbox.io/dist/commentBox.min.js';
+  embed.async = true;
+  embed.addEventListener('error', showFailure);
+  embed.addEventListener('load', () => {
+    if (typeof window.commentBox !== 'function') { showFailure(); return; }
+    try {
+      window.commentBox(config.projectId, {
+        backgroundColor: 'transparent',
+        textColor: '#304233',
+        subtextColor: '#596550',
+        // All visitors share the canonical thread, including URL parameters/previews.
+        createBoxUrl: () => 'https://ladycruellawinters-create.github.io/authur-website/guestbook.html'
+      });
+    } catch { showFailure(); }
   });
-  // Only hide the loading notice when the provider has inserted its form.
+  // The provider owns the form, submission results and approved-message storage.
   const observer = new MutationObserver(() => {
     if (thread.querySelector('iframe')) {
       notice.hidden = true;
