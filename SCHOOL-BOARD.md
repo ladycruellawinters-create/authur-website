@@ -15,3 +15,5 @@ Edit `data/school-notices.json` with a unique `id`, a `house` (`goch`, `derwen`,
 The browser checks time every minute and reloads the data when a visitor returns to the tab. UK dates display consistently; use `+01:00` for a UK summer timestamp and `+00:00` in winter. All new author edits still require a normal Pages deployment.
 
 As with the Cedar Hollow board, **future notices in the data file are public source**, not private drafts. Store confidential drafts outside the repository until they can safely be published. Real reader submissions belong in the separate moderated guestbook. Nothing on this board sends or stores reader messages.
+
+The author also confirmed **Professor Morwyn, Head of Idris House**, as the signatory of “A name on the trunk, please.” Morwyn is distinct from Professor Morwenna, the deputy headmistress and history professor. The trunk notice remains in Around school because its reminder applies to all houses.
