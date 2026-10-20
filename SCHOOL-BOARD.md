@@ -4,7 +4,7 @@
 
 ## Content boundaries
 
-The author explicitly requested **no first-year characters from book one yet**. The original eight notices are signed by anonymous older students, older house groups, the prefects or the school office. The author has also approved named staff notices from Headmistress Imelda Penrose, Deputy Headmistress Professor Morwenna (history, kind and patient), and Professor Woodroofe (flying, with alliterative speech). Three such notices have been added. Do not add Owain, his first-year friends, first-year pseudonyms, their dialogue, their discoveries or notices about their exploits without new author instructions. Avoid introducing named older students or staff without confirmation.
+The author explicitly requested **no first-year characters from book one yet**. The original eight notices were signed by anonymous older students, older house groups, the prefects or the school office. The author subsequently authorised original names for the older students; their current identities are listed below. The author has also approved named staff notices from Headmistress Imelda Penrose, Deputy Headmistress Professor Morwenna (history, kind and patient), and Professor Woodroofe (flying, with alliterative speech). Three such notices have been added. Do not add Owain, his first-year friends, first-year pseudonyms, their dialogue, their discoveries or notices about their exploits without new author instructions. The four original older-student names below are authorised for these notices. Do not invent first-year characters or add named staff without confirmation.
 
 These are original website extras using approved school details, not manuscript quotations or proof that an invented incident occurs in the book. Do not reveal the answer to Idris’s entrance riddle, private manuscript lore or future plot events. Keep using “Central Hall” rather than the retired hall name if future notices need it. No fixed study-meeting dates, new clubs or official school schedules have been established by these notes.
 
@@ -17,3 +17,16 @@ The browser checks time every minute and reloads the data when a visitor returns
 As with the Cedar Hollow board, **future notices in the data file are public source**, not private drafts. Store confidential drafts outside the repository until they can safely be published. Real reader submissions belong in the separate moderated guestbook. Nothing on this board sends or stores reader messages.
 
 The author also confirmed **Professor Morwyn, Head of Idris House**, as the signatory of “A name on the trunk, please.” Morwyn is distinct from Professor Morwenna, the deputy headmistress and history professor. The trunk notice remains in Around school because its reminder applies to all houses.
+
+## Original older students
+
+The author authorised making up names for the anonymous older students on 20 October 2026, with possible use in later books. These names did not appear in the uploaded manuscript search; they are new website characters, not retroactively claimed manuscript characters.
+
+| Name | House | Notices |
+| --- | --- | --- |
+| Llio Pritchard | Goch | The missing red scarf |
+| Carys Bowen | Derwen | Quiet study group; courtyard reading for older students of all houses |
+| Emlyn Merrick | Talar | The borrowed blue notebook |
+| Iestyn Vaughan | Idris | Looking for a chess partner |
+
+They are all older students, not members of book one’s first-year intake. Exact year groups, ages, family links, identities, pronouns, prefect status and later plot roles are not established. Keep repeated names and house associations consistent. The collective prefect notices remain signed by the prefects rather than assigning those roles to these students.
