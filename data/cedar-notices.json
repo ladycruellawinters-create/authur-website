@@ -319,5 +319,32 @@
     "releaseOffsetDays": 7,
     "releaseTime": "15:00",
     "paper": "pink"
+  },
+  {
+    "id": "agnes-wandering-cake-tin",
+    "category": "Borrowed & bewildered",
+    "title": "Has my cake tin followed you home?",
+    "body": "If you borrowed my round cake tin, could you please bring it back?\n\nIf you did not borrow it, but have found it waiting hopefully on your doorstep, please bring it back anyway. It has become rather used to being returned with something inside.\n\nAn empty tin and a thank-you will do perfectly well. Do not let it negotiate.",
+    "signature": "Agnes Hart · 5 Maple Grove",
+    "publishAt": "2026-10-21T09:00:00+01:00",
+    "paper": "cream"
+  },
+  {
+    "id": "noah-cafe-spoons",
+    "category": "From the café",
+    "title": "The teaspoons are not souvenirs",
+    "body": "A small request: please stop taking the café teaspoons home.\n\nIf they are getting into your pockets by themselves, please check before you leave. I cannot keep explaining to customers why we are stirring coffee with a soup spoon.\n\nAlso, the latte art is still a leaf. Thank you.",
+    "signature": "Noah Carter",
+    "publishAt": "2026-10-23T09:00:00+01:00",
+    "paper": "blue"
+  },
+  {
+    "id": "maribel-musical-teapot",
+    "category": "New at Second Chances",
+    "title": "One teapot. A considerable repertoire.",
+    "body": "A charming little teapot is looking for a new home. Floral pattern, excellent spout, whistles beautifully.\n\nUnfortunately, it does not wait for the water to boil. Requests are welcome, though it has very firm opinions about the chorus.\n\nPlease collect before it teaches the other crockery to harmonise.",
+    "signature": "Maribel Finch · Second Chances",
+    "publishAt": "2026-10-25T09:00:00+00:00",
+    "paper": "pink"
   }
 ]

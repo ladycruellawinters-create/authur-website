@@ -31,3 +31,7 @@ All hours are UK local time. `releaseOffsetDays` selects the UK calendar day rel
 Set `vampireReleaseDate` only when confirmed by the author, as `YYYY-MM-DD`. Until then **every release-relative notice remains inactive**. A delayed release recalculates these dates.
 
 More residents can join gradually, keeping their knowledge consistent with this timeline. Later plot-related notices must be approved against the published text; do not infer secrets from character identities. Reminder: all scheduled notice text in the JSON is publicly accessible as source, so this mechanism is appropriate for these approved premise-level extras, not confidential book spoilers.
+
+## Scheduled week of 19–25 October 2026
+
+Three additional everyday notices are scheduled at 09:00 UK time: Agnes’s wandering cake tin on Wednesday 21 October, Noah’s café teaspoons on Friday 23 October and Maribel’s musical teapot on Sunday 25 October. Sunday uses `+00:00` because British Summer Time ends that morning; Wednesday and Friday use `+01:00`. No release date is set, so the release storyline remains inactive.
