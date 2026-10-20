@@ -70,5 +70,32 @@
     "body": "If the weather holds, a few older students will be reading quietly in Founders’ Courtyard during our next free afternoon.\n\nBring a book and leave room for anyone who would like to sit. No one is obliged to discuss the ending.",
     "signature": "Older students, all houses",
     "publishAt": "2026-10-20T00:00:00+01:00"
+  },
+  {
+    "id": "penrose-central-hall",
+    "house": "school",
+    "category": "From the headmistress",
+    "title": "A little consideration",
+    "body": "Please remember that the Central Hall is shared by everyone. Leave room for others to pass, collect your belongings and offer a hand when someone needs one.\n\nA school is made welcoming by the people in it. I trust you to do your part.",
+    "signature": "Headmistress Imelda Penrose",
+    "publishAt": "2026-10-20T16:05:50+00:00"
+  },
+  {
+    "id": "morwenna-history-questions",
+    "house": "school",
+    "category": "From the history professor",
+    "title": "A question is a good beginning",
+    "body": "If a passage in your history notes has left you uncertain, please bring it to our next lesson. You are welcome to ask me to explain it again.\n\nUnderstanding takes time. There is no need to pretend that something is clear when it is not; we shall work through it together.",
+    "signature": "Professor Morwenna · Deputy Headmistress",
+    "publishAt": "2026-10-20T16:05:50+00:00"
+  },
+  {
+    "id": "woodroofe-flying-reminder",
+    "house": "school",
+    "category": "From the flying professor",
+    "title": "Brooms, balance and better judgement",
+    "body": "A reminder to older flying students: before braving brisk breezes, be certain your broom is in proper condition. Report battered bristles before they become a bothersome surprise.\n\nPractise patient preparation, sensible speed and steady steering. Spectacular swooping is seldom a substitute for sound skill.",
+    "signature": "Professor Woodroofe",
+    "publishAt": "2026-10-20T16:05:50+00:00"
   }
 ]

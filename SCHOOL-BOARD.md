@@ -4,7 +4,7 @@
 
 ## Content boundaries
 
-The author explicitly requested **no first-year characters from book one yet**. The initial eight notices are signed by anonymous older students, older house groups, the prefects or the school office. Do not add Owain, his first-year friends, first-year pseudonyms, their dialogue, their discoveries or notices about their exploits without new author instructions. Avoid introducing named older students or staff without confirmation.
+The author explicitly requested **no first-year characters from book one yet**. The original eight notices are signed by anonymous older students, older house groups, the prefects or the school office. The author has also approved named staff notices from Headmistress Imelda Penrose, Deputy Headmistress Professor Morwenna (history, kind and patient), and Professor Woodroofe (flying, with alliterative speech). Three such notices have been added. Do not add Owain, his first-year friends, first-year pseudonyms, their dialogue, their discoveries or notices about their exploits without new author instructions. Avoid introducing named older students or staff without confirmation.
 
 These are original website extras using approved school details, not manuscript quotations or proof that an invented incident occurs in the book. Do not reveal the answer to Idris’s entrance riddle, private manuscript lore or future plot events. Keep using “Central Hall” rather than the retired hall name if future notices need it. No fixed study-meeting dates, new clubs or official school schedules have been established by these notes.
 
