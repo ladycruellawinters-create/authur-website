@@ -112,3 +112,7 @@ Run the date-rule checks with `node --test tests/seasonal-banners.test.cjs`. The
 ## Reader guestbook
 
 `guestbook.html` uses CommentBox.io project `5640986751401984-proj` for shared reader messages. The author confirmed approval is enabled in the provider dashboard on 20 October 2026. See [GUESTBOOK.md](GUESTBOOK.md) for moderation, canonical thread identity and the remaining real-submission check. Configuration is in `guestbook-config.js`; only the public project ID is stored. The homepage invites readers to visit the guestbook.
+
+## Reader extras navigation
+
+The homepage `#reader-extras` section groups bookmarks, the guestbook, sorting quiz and acceptance letter. Its first two cards highlight bookmarks and the guestbook. Every page’s main menu links to this section, and the homepage hero also offers a direct link. At tablet widths the menu collapses to keep all links accessible without crowding the author wordmark.
