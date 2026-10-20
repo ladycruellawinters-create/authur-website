@@ -205,5 +205,23 @@
     "body": "Found: one grey glove, apparently abandoned by its partner.\n\nIf it is yours, please ask a prefect to put you in touch with me. Describing it as “the grey one” will not narrow things down as much as you hope.",
     "signature": "Iestyn Vaughan · Idris",
     "publishAt": "2026-11-15T09:00:00+00:00"
+  },
+  {
+    "id": "winter-feast-decorating-2026",
+    "house": "school",
+    "category": "Winter feast preparations",
+    "title": "A little winter welcome",
+    "body": "The winter feast for students and staff staying at school will be held in the dining hall on 21 December. If you would like to help with the decorations, please begin thinking about what you can contribute.\n\nA few thoughtful touches can make a shared space feel welcoming. Thank you to everyone willing to lend a hand.",
+    "signature": "Headmistress Imelda Penrose",
+    "publishAt": "2026-12-07T09:00:00+00:00"
+  },
+  {
+    "id": "spring-feast-decorating-2027",
+    "house": "school",
+    "category": "Spring feast preparations",
+    "title": "A welcome for spring",
+    "body": "Our spring feast takes place in the dining hall on 21 March. There is time to think about the decorations and how we can make the hall a cheerful place to gather.\n\nIf you would like to help, a small contribution is quite enough. Please leave room for other people’s ideas as well as your own.",
+    "signature": "Professor Morwenna · Deputy Headmistress",
+    "publishAt": "2027-03-07T09:00:00+00:00"
   }
 ]
