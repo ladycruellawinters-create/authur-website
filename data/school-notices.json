@@ -97,5 +97,113 @@
     "body": "A reminder to older flying students: before braving brisk breezes, be certain your broom is in proper condition. Report battered bristles before they become a bothersome surprise.\n\nPractise patient preparation, sensible speed and steady steering. Spectacular swooping is seldom a substitute for sound skill.",
     "signature": "Professor Woodroofe",
     "publishAt": "2026-10-20T16:05:50+00:00"
+  },
+  {
+    "id": "llio-scarf-returned",
+    "house": "goch",
+    "category": "A grateful update",
+    "title": "The scarf has come home",
+    "body": "Thank you to whoever left my scarf with a prefect. It is now safely back where it belongs.\n\nIf it asks anyone for directions to the towers, please remember that it has already had quite enough adventure.",
+    "signature": "Llio Pritchard · Goch",
+    "publishAt": "2026-10-21T09:00:00+01:00"
+  },
+  {
+    "id": "woodroofe-broom-parking",
+    "house": "school",
+    "category": "From the flying professor",
+    "title": "Proper parking, please",
+    "body": "Please put practice brooms back in their proper places after flying.\n\nA badly balanced broom becomes a bothersome barrier. Propping one across a passage is particularly poor planning.\n\nLeave clear corridors for careful colleagues.",
+    "signature": "Professor Woodroofe",
+    "publishAt": "2026-10-23T09:00:00+01:00"
+  },
+  {
+    "id": "morwenna-names-and-dates",
+    "house": "school",
+    "category": "From the history professor",
+    "title": "A name, a date, a little patience",
+    "body": "If the names and dates in your history notes have begun to blur together, try setting them out one small section at a time.\n\nYou need not untangle everything at once. Bring the parts that still puzzle you to our next lesson, and we shall look at them together.",
+    "signature": "Professor Morwenna · Deputy Headmistress",
+    "publishAt": "2026-10-25T09:00:00+00:00"
+  },
+  {
+    "id": "emlyn-margin-notes",
+    "house": "talar",
+    "category": "A small correction",
+    "title": "Those are notes, not instructions",
+    "body": "To whoever borrowed my notebook: the arrows in the margins link one thought to another. They are not directions around the school.\n\nI am sorry if the diagram brought you back to the same page three times. It did that to me as well.",
+    "signature": "Emlyn Merrick · Talar",
+    "publishAt": "2026-10-28T09:00:00+00:00"
+  },
+  {
+    "id": "morwyn-borrowed-belongings",
+    "house": "school",
+    "category": "From the Head of Idris House",
+    "title": "Borrowed is not inherited",
+    "body": "Please return borrowed belongings when you have finished with them. This includes books, blankets and the chair you moved because it was “only for a moment.”\n\nA polite request before borrowing is generally more successful than an elaborate explanation afterwards.",
+    "signature": "Professor Morwyn · Head of Idris House",
+    "publishAt": "2026-10-30T09:00:00+00:00"
+  },
+  {
+    "id": "carys-spare-parchment",
+    "house": "derwen",
+    "category": "Study company",
+    "title": "A little room on the page",
+    "body": "I have some spare parchment for the older students joining our study group. Please ask if you need a sheet.\n\nIf your notes have reached the point where the margins have margins, it may be time to start a fresh page.",
+    "signature": "Carys Bowen · Derwen",
+    "publishAt": "2026-11-01T09:00:00+00:00"
+  },
+  {
+    "id": "woodroofe-weather-wisdom",
+    "house": "school",
+    "category": "From the flying professor",
+    "title": "Wind, weather and wise decisions",
+    "body": "Before flying, consider conditions carefully. Gusts are not games, and a brisk breeze is no invitation to boast.\n\nSteady steering and sensible choices serve you better than spectacular stories about surviving something foolish.",
+    "signature": "Professor Woodroofe",
+    "publishAt": "2026-11-04T09:00:00+00:00"
+  },
+  {
+    "id": "iestyn-chess-rematch",
+    "house": "idris",
+    "category": "A sporting update",
+    "title": "A rematch, with fewer excuses",
+    "body": "Thank you to the older students who answered my request for chess partners. I have enjoyed the games, including the ones I am still trying to explain.\n\nFor the next round, I shall accept that the board is not biased. I would appreciate the same courtesy from anyone who loses to me.",
+    "signature": "Iestyn Vaughan · Idris",
+    "publishAt": "2026-11-06T09:00:00+00:00"
+  },
+  {
+    "id": "penrose-small-kindnesses",
+    "house": "school",
+    "category": "From the headmistress",
+    "title": "Small kindnesses count",
+    "body": "Thank you to those who have helped a neighbour find a misplaced belonging, made room at a table or taken a moment to listen.\n\nThese things do not require an announcement. They do, however, deserve to be noticed. Please continue to make our school a welcoming place.",
+    "signature": "Headmistress Imelda Penrose",
+    "publishAt": "2026-11-08T09:00:00+00:00"
+  },
+  {
+    "id": "llio-study-directions",
+    "house": "goch",
+    "category": "Study company",
+    "title": "The long way is not compulsory",
+    "body": "If anyone among the older students would like company while we work through our notes, please come and ask.\n\nYou do not need to make a dramatic entrance. After the scarf incident, I am trying to show a little restraint.",
+    "signature": "Llio Pritchard · Goch",
+    "publishAt": "2026-11-11T09:00:00+00:00"
+  },
+  {
+    "id": "morwenna-change-your-answer",
+    "house": "school",
+    "category": "From the history professor",
+    "title": "You may change your mind",
+    "body": "Finding a mistake in your notes is not a reason to be discouraged. It means you have noticed something worth checking.\n\nCross it out, ask a question and give yourself time. Understanding is more important than appearing to have been right all along.",
+    "signature": "Professor Morwenna · Deputy Headmistress",
+    "publishAt": "2026-11-13T09:00:00+00:00"
+  },
+  {
+    "id": "iestyn-missing-glove",
+    "house": "idris",
+    "category": "Lost & found",
+    "title": "One glove, seeking its other half",
+    "body": "Found: one grey glove, apparently abandoned by its partner.\n\nIf it is yours, please ask a prefect to put you in touch with me. Describing it as “the grey one” will not narrow things down as much as you hope.",
+    "signature": "Iestyn Vaughan · Idris",
+    "publishAt": "2026-11-15T09:00:00+00:00"
   }
 ]

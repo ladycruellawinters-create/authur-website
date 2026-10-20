@@ -30,3 +30,9 @@ The author authorised making up names for the anonymous older students on 20 Oct
 | Iestyn Vaughan | Idris | Looking for a chess partner |
 
 They are all older students, not members of book one’s first-year intake. Exact year groups, ages, family links, identities, pronouns, prefect status and later plot roles are not established. Keep repeated names and house associations consistent. The collective prefect notices remain signed by the prefects rather than assigning those roles to these students.
+
+## Scheduled weekly batch: 21 October–15 November 2026
+
+Twelve new notices are scheduled on Wednesdays, Fridays and Sundays at 09:00 Europe/London time (three per week), using explicit UK summer/winter offsets. They mix six student notices from Llio, Carys, Emlyn and Iestyn with six staff notices from Penrose, Morwenna, Morwyn and Woodroofe. Woodroofe retains alliteration; Morwenna remains kind and patient. No first-year characters or unconfirmed seasonal school events are included.
+
+This is a finite, authored queue, not automatic text generation. The last prepared notice is 15 November 2026. Add a further reviewed batch to continue the cadence, with an optional fourth notice in weeks where the author supplies an event. Seasonal material should follow the school calendar once the author confirms it. The initial launch notes are separate from this recurring cadence.
