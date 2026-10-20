@@ -26,6 +26,7 @@ async function loadNews() {
   const status = document.querySelector('#news-status');
   if (!container || !status) return;
   const welcomePost = container.querySelector('[data-welcome-post]');
+  const localPosts = [...container.querySelectorAll('[data-local-news]')];
   const controller = new AbortController();
   const timeout = setTimeout(() => controller.abort(), 10000);
   try {
@@ -69,6 +70,11 @@ async function loadNews() {
       article.append(date, content);
       fragment.append(article);
     }
+    // Keep website-authored posts and their clickable links alongside GitHub news.
+    const orderedArticles = [...fragment.children, ...localPosts].sort((a, b) =>
+      Date.parse(b.querySelector('time').dateTime) - Date.parse(a.querySelector('time').dateTime)
+    );
+    fragment.replaceChildren(...orderedArticles);
     if (welcomePost) fragment.append(welcomePost);
     container.replaceChildren(fragment);
     setupNewsExpansion(container);

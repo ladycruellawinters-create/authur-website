@@ -24,3 +24,7 @@ Open https://github.com/ladycruellawinters-create/authur-website/issues and sele
 ## Availability
 
 The website retrieves public news from `api.github.com` when visitors open or refresh it. There are no tokens or secrets in the site. GitHub availability, browser network access, and public API rate limits can temporarily prevent updates loading. In that case, visitors see a short notice and the existing welcome post. This is a simple public news editor using GitHub, not a private draft dashboard. To draft privately, write elsewhere before publishing.
+
+## Website-authored updates
+
+Posts marked `data-local-news` in `index.html` appear alongside GitHub news, sorted by their `<time datetime>` date. They support ordinary HTML links and remain visible if the GitHub API is unavailable. The cover-bookmark announcement is a website-authored post. These posts count towards the same six-post expansion limit.
