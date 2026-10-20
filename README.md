@@ -128,3 +128,7 @@ The homepage `#reader-extras` section groups bookmarks, the guestbook, sorting q
 The public neighbour introductions in `my-neighbour-is.html` use only spoiler-free personality, job and hobby details approved for these updates. They include Oliver, Noah, Agnes, Arthur, Daniel, Lucian, Evelyn, Archie, Margaret and Maribel. Confidential identities and character histories remain outside this repository. New recommendations are website extras, not manuscript excerpts or real books for sale.
 
 The public neighbourhood list also includes short introductions for Valentine Dae, Jacques Winter, Julian Vale, Gabriel Sterling and Sebastian Drake, using established jobs and ordinary relationships. Each profile has a stable `resident-…` anchor. Salem and the unnamed Easter host remain unprofiled until non-secret introductory details are supplied; confidential identities and family discoveries are not substitutes for public biography.
+
+## Mynydd Draig student noticeboard
+
+`school-board.html` contains eight fictional notices from older students, house groups, prefects and the school office, with house filters and scheduled-post support. No first-year characters from book one are featured. Edit `data/school-notices.json`; see [SCHOOL-BOARD.md](SCHOOL-BOARD.md) for content boundaries and scheduling. The page is linked from Reader extras and the school lore page. The Cedar Hollow board and the unpublished town-map draft remain separate.
