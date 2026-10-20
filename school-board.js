@@ -55,7 +55,7 @@
       if (!response.ok) throw Error('Unavailable');
       const data = await response.json();
       if (!Array.isArray(data)) throw Error('Invalid notices');
-      notices = data.filter(notice => notice && ['id', 'title', 'category', 'body', 'signature', 'publishAt', 'house'].every(key => typeof notice[key] === 'string') && Object.hasOwn(houses, notice.house) && Number.isFinite(Date.parse(notice.publishAt)));
+      notices = data.filter(notice => notice && ['id', 'title', 'category', 'body', 'signature', 'publishAt', 'house'].every(key => typeof notice[key] === 'string') && Object.hasOwn(houses, notice.house) && Number.isFinite(Date.parse(notice.publishAt)) && window.SchoolPostingCalendar.isSchoolPostingDate(notice.publishAt));
       loaded = true;
       rendered = null;
       buttons.forEach(button => { button.disabled = false; });

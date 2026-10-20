@@ -46,3 +46,9 @@ The working calendar also establishes the arrival weekend, September/January/Mar
 ## Feast decorating reminders
 
 The author requested decorating reminders before the week immediately preceding the winter and spring feasts. The current batch schedules these two weeks in advance: 7 December 2026 at 09:00 UK for the 21 December winter feast, and 7 March 2027 at 09:00 UK for the 21 March spring feast. These standalone advance notices do not extend the full three-post weekly queue beyond 15 November. No decorating sessions, materials, new school rules or fixed meeting times are invented. Future annual batches should preserve this two-week lead unless clarified by the author.
+
+## School-year posting window
+
+The author requires new school-board notices only from the **final Friday of August through the final Friday of May, inclusive**, using Europe/London dates. `school-posting-calendar.js` calculates those Fridays every year; `school-board.js` rejects notices whose publication timestamp falls outside that window. Summer-dated notices are not deferred until September: correct their date before scheduling. Previously published, valid notices stay readable over summer. This does not restrict the Cedar Hollow board. Autumn/winter holiday notices within the stated window remain allowed.
+
+For 2026–27, the window is 28 August 2026 through 28 May 2027. All currently prepared school notices fall within the window. Run `node --test tests/school-posting-calendar.test.cjs` to check changing annual Fridays, UK midnight boundaries, summer exclusion, archive behaviour and the current queue.
