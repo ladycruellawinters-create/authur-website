@@ -1,4 +1,4 @@
-/* Authored, recurring Penrose notices. No invented grades, winners or plot events. */
+/* Authored, recurring Penrose messages. Specific results are announced separately. */
 (() => {
   const calendar = typeof module !== 'undefined' && module.exports
     ? require('./school-posting-calendar.js') : window.SchoolPostingCalendar;
