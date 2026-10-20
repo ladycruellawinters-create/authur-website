@@ -10,7 +10,8 @@
   let rendered = null;
   function render() {
     if (!loaded) return;
-    const visible = notices.filter(notice => Date.parse(notice.publishAt) <= Date.now() && (filter === 'all' || notice.house === filter))
+    const scheduled = [...notices, ...window.SchoolAnnualNotices.forDate(new Date())];
+    const visible = scheduled.filter(notice => window.SchoolPostingCalendar.isSchoolPostingDate(notice.publishAt) && Date.parse(notice.publishAt) <= Date.now() && (filter === 'all' || notice.house === filter))
       .sort((a, b) => Date.parse(b.publishAt) - Date.parse(a.publishAt));
     const key = filter + '|' + visible.map(notice => notice.id).join('|');
     if (key === rendered) return;

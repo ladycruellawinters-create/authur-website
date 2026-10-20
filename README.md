@@ -132,3 +132,5 @@ The public neighbourhood list also includes short introductions for Valentine Da
 ## Mynydd Draig student noticeboard
 
 `school-board.html` contains eight fictional notices from older students, house groups, prefects and the school office, with house filters and scheduled-post support. No first-year characters from book one are featured. Edit `data/school-notices.json`; see [SCHOOL-BOARD.md](SCHOOL-BOARD.md) for content boundaries and scheduling. The page is linked from Reader extras and the school lore page. The Cedar Hollow board and the unpublished town-map draft remain separate.
+
+Penrose’s annual start/end messages are defined in `school-annual-notices.js`: four rotating authored welcomes on the first Monday of September and four rotating congratulations on the final Friday of May, at 09:00 UK. The next occurrences are in 2027; earlier 2026 messages are not backdated. These recurring posts work independently of the finite ordinary weekly queue, and stay within the school-year posting window. Run `node --test tests/school-annual-notices.test.cjs tests/school-posting-calendar.test.cjs` to verify dates, wording variation and term-window eligibility.
