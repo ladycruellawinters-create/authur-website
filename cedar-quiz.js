@@ -20,8 +20,10 @@
     const fieldset = document.createElement('fieldset'); fieldset.className = 'quiz-question';
     const legend = document.createElement('legend'); legend.textContent = `${index + 1}. ${prompt}`;
     fieldset.append(legend);
-    // Rotate positions so a creature does not always occupy the same answer slot.
-    const order = [...keys.slice(index % keys.length), ...keys.slice(0, index % keys.length)];
+    // Rotate answer positions while keeping the underlying choices unchanged.
+    const answerKeys = Object.keys(answers);
+    const offset = index % answerKeys.length;
+    const order = [...answerKeys.slice(offset), ...answerKeys.slice(0, offset)];
     order.forEach(key => option(fieldset, `question-${index}`, key, answers[key]));
     container.append(fieldset);
   });
@@ -43,7 +45,11 @@
     event.preventDefault(); if (!form.reportValidity()) return;
     const scores = Object.fromEntries(keys.map(key => [key, 0]));
     const values = new FormData(form);
-    questions.forEach((_, i) => scores[values.get(`question-${i}`)]++);
+    keys.forEach(key => {
+      questions.forEach((_, i) => {
+        if (creatures[key].affinity[i] === values.get(`question-${i}`)) scores[key]++;
+      });
+    });
     const max = Math.max(...Object.values(scores));
     tied = keys.filter(key => scores[key] === max);
     if (tied.length === 1) return show(tied[0]);
@@ -66,7 +72,7 @@
   });
   document.querySelector('#copy-result').addEventListener('click', async () => {
     if (!current) return;
-    const text = `I would be a ${creatures[current].name.toLowerCase()} in Cedar Hollow! Discover your supernatural side: https://ladycruellawinters-create.github.io/authur-website/cedar-quiz.html`;
+    const text = `My Cedar Hollow quiz result is ${creatures[current].name}! Discover your supernatural side: https://ladycruellawinters-create.github.io/authur-website/cedar-quiz.html`;
     try {
       await navigator.clipboard.writeText(text);
       document.querySelector('#share-status').textContent = 'Copied! Your result and quiz link are ready to share.';
