@@ -223,5 +223,32 @@
     "body": "Our spring feast takes place in the dining hall on 21 March. There is time to think about the decorations and how we can make the hall a cheerful place to gather.\n\nIf you would like to help, a small contribution is quite enough. Please leave room for other people’s ideas as well as your own.",
     "signature": "Professor Morwenna · Deputy Headmistress",
     "publishAt": "2027-03-07T09:00:00+00:00"
+  },
+  {
+    "id": "carwyn-prefect-help",
+    "house": "idris",
+    "category": "From your prefect",
+    "title": "Yes, you may ask a prefect",
+    "body": "If you are lost, worried, or have spent rather longer pretending to understand your homework than actually understanding it, come and find me.\n\nI cannot promise to know everything. I can promise to help you find someone who does. No grand speech required—though I do give an excellent grand speech.",
+    "signature": "Carwyn Jones · Idris Prefect",
+    "publishAt": "2026-10-21T00:00:00+01:00"
+  },
+  {
+    "id": "carwyn-halloween-dignity",
+    "house": "idris",
+    "category": "From your prefect",
+    "title": "A little dignity. Not too much.",
+    "body": "With the Halloween feast and ghost dance nearly here, I hope everyone has something to look forward to. If you spot someone standing on their own, make room for them.\n\nAnd if you happen to see your Idris prefect dancing, a little generosity would be appreciated. Confidence and talent are, regrettably, separate matters.",
+    "signature": "Carwyn Jones · Idris Prefect",
+    "publishAt": "2026-10-29T09:00:00+00:00"
+  },
+  {
+    "id": "carwyn-library-company",
+    "house": "idris",
+    "category": "From your prefect",
+    "title": "An invitation, not an inspection",
+    "body": "If you would like some company while you catch up on work, you are welcome to join me in the library when you find me there. Any house. Bring your notes and your most convincing attempt at concentration.\n\nI shall be doing my own work too. The prefect badge has, most unfairly, failed to write a single essay for me.",
+    "signature": "Carwyn Jones · Idris Prefect",
+    "publishAt": "2026-11-05T09:00:00+00:00"
   }
 ]

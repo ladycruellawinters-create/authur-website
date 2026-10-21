@@ -60,3 +60,7 @@ For 2026–27, the window is 28 August 2026 through 28 May 2027. All currently p
 ### Pre-book results and House Cup winners
 
 The author explicitly authorised invented exam results and Hedfan House Cup winners for background notices before the books’ timeline begins. Older students may receive fictional results and end-of-year recognition; the exclusion of book-one first-years still applies. These are website background details, not established book canon. Once published-book events become relevant, align outcomes with the books and the author’s spoiler guidance. This permission does not itself schedule a results announcement.
+
+## Carwyn Jones — authorised manuscript character
+
+The author confirmed that the year before the books begin is Carwyn Jones’s first year as Idris prefect and explicitly authorised his notices. His voice is charming, charismatic and well loved across the school: easy confidence, warm theatrical humour, reassurance and a firm sense of responsibility. Three original notices were added: 21 October 2026 (asking for help), 29 October (Halloween inclusion), and 5 November (library company). These add a fourth notice in each affected week. They do not reproduce manuscript dialogue or involve book-one first-years. Do not assign a specific student year or a publication date from this timeline note; do not repeat “first year as prefect” in later school years automatically.
