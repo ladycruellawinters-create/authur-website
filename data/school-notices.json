@@ -162,12 +162,12 @@
     "publishAt": "2026-11-04T09:00:00+00:00"
   },
   {
-    "id": "iestyn-chess-rematch",
+    "id": "gethin-team-preparation",
     "house": "idris",
-    "category": "A sporting update",
-    "title": "A rematch, with fewer excuses",
-    "body": "Thank you to the older students who answered my request for chess partners. I have enjoyed the games, including the ones I am still trying to explain.\n\nFor the next round, I shall accept that the board is not biased. I would appreciate the same courtesy from anyone who loses to me.",
-    "signature": "Iestyn Vaughan · Idris",
+    "category": "Hedfan",
+    "title": "Come prepared",
+    "body": "Idris team: check your equipment before practice. Not halfway through it.\n\nListen to instructions. Work together. If something is wrong, tell me. I cannot fix a problem you have decided to keep to yourself.",
+    "signature": "Gethin Robberts · Idris Hedfan Captain",
     "publishAt": "2026-11-06T09:00:00+00:00"
   },
   {
@@ -180,12 +180,12 @@
     "publishAt": "2026-11-08T09:00:00+00:00"
   },
   {
-    "id": "llio-study-directions",
-    "house": "goch",
+    "id": "nia-homework-help",
+    "house": "idris",
     "category": "Study company",
-    "title": "The long way is not compulsory",
-    "body": "If anyone among the older students would like company while we work through our notes in the library, please come and ask.\n\nYou do not need to make a dramatic entrance. After the scarf incident, I am trying to show a little restraint.",
-    "signature": "Llio Pritchard · Goch",
+    "title": "There is no silly question",
+    "body": "If theory or history homework has left you staring at the same paragraph for far too long, I am always happy to lend a hand. Bring your notes and show me where you got stuck—we can work through it together.\n\nAnd if you have found a school book I have not read yet, please tell me. There are still a few trying to escape me.",
+    "signature": "Nia Blackwater · Idris",
     "publishAt": "2026-11-11T09:00:00+00:00"
   },
   {
@@ -250,5 +250,14 @@
     "body": "If you would like some company while you catch up on work, you are welcome to join me in the library when you find me there. Any house. Bring your notes and your most convincing attempt at concentration.\n\nI shall be doing my own work too. The prefect badge has, most unfairly, failed to write a single essay for me.",
     "signature": "Carwyn Jones · Idris Prefect",
     "publishAt": "2026-11-05T09:00:00+00:00"
+  },
+  {
+    "id": "nia-weekend-duelling",
+    "house": "idris",
+    "category": "Weekend duelling",
+    "title": "Someone to practise with",
+    "body": "If you would like to join one of the friendly weekend duelling matches I organise, come and speak to me. We use the duelling classroom.\n\nYou do not need to arrive feeling confident. Having someone patient to practise with is rather the point.",
+    "signature": "Nia Blackwater · Idris",
+    "publishAt": "2026-11-14T09:00:00+00:00"
   }
 ]
