@@ -1,0 +1,525 @@
+[
+  {
+    "id": "2026-10",
+    "number": 1,
+    "label": "October 2026",
+    "stories": [
+      {
+        "id": "book-club",
+        "category": "CULTURE & CONVERSATION",
+        "title": "Book club seeks readers. Agreement optional.",
+        "deck": "Evelyn Greene and Daniel Blackwood make room for another evening of lively opinions.",
+        "byline": "By Elias Mercer",
+        "paragraphs": [
+          "At Twilight Books, a comfortable chair is an invitation to stay. Add Evelyn Greene and a shared reading choice, and staying quiet becomes rather less likely.",
+          "The town’s monthly book club brings readers together after sunset, with Evelyn organising and Daniel hosting among the shelves. The appeal is simple: a book is something you can enjoy alone, then discover all over again through somebody else’s opinion.",
+          "New readers need not arrive with a speech prepared. Listening is welcome; so is changing your mind. The Chronicle cannot promise that anyone will agree about the ending.",
+          "Reading choices and meeting notices will be announced on the community board. Until then, there is plenty of time to practise the delicate art of letting somebody else finish a sentence."
+        ]
+      },
+      {
+        "id": "radio",
+        "category": "LOCAL AIRWAVES",
+        "title": "Who had the story first? Local media debate continues.",
+        "deck": "WCHL 88.3 and the Chronicle find common ground. Almost.",
+        "byline": "From the editor’s desk",
+        "paragraphs": [
+          "Felix Bellomy has a gift for making a town-wide broadcast sound like a conversation across a kitchen table. This is an admirable quality. It does not, in this editor’s opinion, settle the question of where he found the subject of that conversation.",
+          "The WCHL 88.3 presenter maintains that he merely delivers local stories faster. The Chronicle maintains that there is something to be said for putting them in writing, where they can be examined at leisure and cannot be interrupted by Felix.",
+          "Fortunately, both publications agree that Cedar Hollow deserves to hear about its own residents. We also agree with the mayor that an unfinished festival arrangement is not yet an announcement.",
+          "Further developments will be reported here. Unless, of course, Felix gets there first."
+        ]
+      },
+      {
+        "id": "repairs",
+        "category": "BUSINESS ON MAIN STREET",
+        "title": "Before you throw it away, ask Greta.",
+        "deck": "Gears & Grime makes a case for the useful thing in the bottom drawer.",
+        "byline": "Neighbourhood notebook",
+        "paragraphs": [
+          "A loose part can look like clutter until it is precisely the part somebody needs. Greta Grindle, proprietor of Gears & Grime, has considerable sympathy for this point of view and rather less for throwing useful things away.",
+          "Resourcefulness is part of her trade. So is pride in a repair done properly. Anyone arriving with an apology for the state of an engine may find that the engine receives the longer conversation.",
+          "Arthur Bell’s work at The Ticking Time Peace calls for a different sort of patience, but the two share an appreciation for things that deserve another chance. Their friendly rivalry is a reminder that there is more than one way to be exacting.",
+          "The Chronicle offers no verdict on who wins an argument about mechanics. It is, however, willing to listen."
+        ]
+      },
+      {
+        "id": "harvest",
+        "category": "AROUND THE NEIGHBOURHOOD",
+        "title": "This year’s pumpkins: the best yet?",
+        "deck": "Jack Crow’s annual confidence remains in excellent condition.",
+        "byline": "Autumn observations",
+        "paragraphs": [
+          "For Jack Crow, autumn comes with work-worn hands, pumpkin-growing pride and a familiar prediction: this year’s harvest will be his best.",
+          "The produce farmer’s enthusiasm extends beyond the field. Elaborate carved lanterns and a fondness for autumn celebrations give him plenty of reasons to enjoy the season, even when the work is demanding.",
+          "There is something reassuring about a neighbour who greets the turning year with the same wholehearted optimism. The Chronicle is not equipped to grade pumpkins, but it is prepared to appreciate a good lantern.",
+          "No new festival date is announced in this report. The mayor may put her pen down."
+        ]
+      },
+      {
+        "id": "swan",
+        "category": "PLACES TO LINGER",
+        "title": "At the Slumbering Swan, quiet is part of the welcome.",
+        "deck": "Chamomile for the innkeeper. Excellent coffee for everyone else.",
+        "byline": "A look around town",
+        "paragraphs": [
+          "There are establishments that compete for your attention. The Slumbering Swan Bed & Breakfast would appear to prefer that you take a seat.",
+          "Innkeeper Silas Sommers brings an old-fashioned manner, a soft voice and a wonderfully dry sense of humour to welcoming guests. He favours chamomile tea, keeps excellent coffee for visitors and has very little enthusiasm for televisions in the guest bedrooms.",
+          "Antique pillows and feather beds are among his interests. His ginger cat, Drowse, takes an equally committed approach to comfort, though with fewer conversational obligations.",
+          "For a town that can produce a great deal of conversation, a little quiet has its attractions. Felix Bellomy may wish to consider this before making his next recommendation on air."
+        ]
+      },
+      {
+        "id": "editorial",
+        "category": "A WORD FROM ELIAS",
+        "title": "The ordinary things are worth reporting.",
+        "deck": "Why a town newspaper needs room for the small stories.",
+        "byline": "Editorial · Elias Mercer",
+        "paragraphs": [
+          "Not every story begins with a mystery. Sometimes it begins with a repaired clock, a remembered coffee order or a neighbour who has noticed that somebody could use a hand.",
+          "These things do not always make the loudest headlines. They do, however, make a place feel like home. A newspaper that ignores them has missed something important.",
+          "The Cedar Hollow Chronicle will keep space for local businesses, familiar faces, friendly disagreements and the details that make this town itself. We will also keep asking questions. It would be unreasonable to expect otherwise.",
+          "If Felix wishes to describe that as being nosy, he is welcome to write a letter to the editor. We suspect he would prefer to announce it."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2026-11",
+    "number": 2,
+    "label": "November 2026",
+    "stories": [
+      {
+        "id": "repairs",
+        "category": "MAIN STREET",
+        "title": "A second chance for the useful things",
+        "deck": "Greta and Maribel make different cases for keeping something worth saving.",
+        "byline": "By Elias Mercer",
+        "paragraphs": [
+          "A worn chair and a spare engine part are unlikely companions, but both can find an advocate on Main Street. At Second Chances, Maribel Finch looks for an object’s next chapter. At Gears & Grime, Greta Grindle is more interested in what can still be made to work.",
+          "Their methods differ; their patience for unnecessary waste has something in common. This month, the Chronicle salutes the residents who pause before deciding an old thing has nothing left to offer."
+        ]
+      },
+      {
+        "id": "coffee",
+        "category": "CAFÉ CONVERSATIONS",
+        "title": "A familiar order, a fresh conversation",
+        "deck": "Noah Carter makes room for more than coffee.",
+        "byline": "By Elias Mercer",
+        "paragraphs": [
+          "At Deja Brew Café, a remembered order can save a customer a few words. Noah Carter’s friendly manner often encourages a few more. Warmth and gentle wit are as much a part of the welcome as the aprons behind the counter.",
+          "His own cup is not always where he left it. The Chronicle declines to suggest this says anything about his organisational abilities. Remembering everybody else’s preferences must occupy a considerable amount of space."
+        ]
+      },
+      {
+        "id": "reading",
+        "category": "BETWEEN THE SHELVES",
+        "title": "An evening without a hurried ending",
+        "deck": "Twilight Books offers a little breathing room.",
+        "byline": "By Elias Mercer",
+        "paragraphs": [
+          "As evenings draw in, an unhurried visit to Twilight Books has an obvious appeal. Daniel Blackwood’s after-sunset shop offers comfortable chairs and stories waiting for the right reader.",
+          "Evelyn Greene’s monthly book club gives those stories a second life in conversation. Meeting choices and notices belong on the community board when announced; the Chronicle will not invent a reading list merely to give the editor another opinion."
+        ]
+      },
+      {
+        "id": "trails",
+        "category": "OUTDOORS",
+        "title": "A quieter sort of local knowledge",
+        "deck": "Saz Step knows the value of looking after a path.",
+        "byline": "By Elias Mercer",
+        "paragraphs": [
+          "The local landscape is more than scenery to park ranger Saz Step. Trails, animal routes and the visitors who use them all deserve patient attention. Lost hikers benefit from a guide who is difficult to overlook and gentle in his manner.",
+          "His work with Margaret Ashcombe reflects a shared interest in caring for the places around Cedar Hollow. The Chronicle offers appreciation rather than route directions: a newspaper is a poor substitute for proper local guidance."
+        ]
+      },
+      {
+        "id": "post",
+        "category": "THE DAILY ROUND",
+        "title": "A greeting on the doorstep",
+        "deck": "Miles Skye keeps the post moving.",
+        "byline": "By Elias Mercer",
+        "paragraphs": [
+          "A familiar face on the morning round can become part of a neighbourhood’s rhythm. Miles Skye brings an optimistic outlook, a well-worn postal bag and a willingness to carry on through uninviting weather.",
+          "He enjoys the scenic route and a conversation with people he knows. This editor is sympathetic to both habits, though any comparison between delivering letters and collecting stories must stop short of examining anybody’s private correspondence."
+        ]
+      },
+      {
+        "id": "editorial",
+        "category": "FROM THE EDITOR",
+        "title": "There is no prize for being first to guess",
+        "deck": "A note on rumours and the patience they require.",
+        "byline": "Editorial · Elias Mercer",
+        "paragraphs": [
+          "A rumour can move quickly through a small town. It can also acquire an entirely new set of details on the journey. The Chronicle would prefer to print what it knows rather than what somebody’s neighbour thinks they almost heard.",
+          "This is not a promise to stop asking questions. It is a promise to distinguish a question from an answer. Felix Bellomy is welcome to make the same distinction on air. We shall listen with interest."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2026-12",
+    "number": 3,
+    "label": "December 2026",
+    "stories": [
+      {
+        "id": "toys",
+        "category": "LOCAL CRAFT",
+        "title": "The work behind a thoughtful gift",
+        "deck": "Nicholas Klaus keeps busy at Tinkers Toy Shop.",
+        "byline": "By Elias Mercer",
+        "paragraphs": [
+          "Toymaking is year-round work for Nicholas Klaus, whose patience and generosity are familiar at Tinkers Toy Shop. Comfortable woollens and a jolly manner are part of the welcome, but attention to the person receiving a gift matters just as much.",
+          "Porter Tinker’s enthusiasm for new inventions supplies a different kind of energy. A project may turn out differently from its first design and still have something delightful to offer. The Chronicle approves of making room for both skill and curiosity."
+        ]
+      },
+      {
+        "id": "flowers",
+        "category": "SEASONAL DETAILS",
+        "title": "A little colour for a darker afternoon",
+        "deck": "Evelyn Greene has an eye for a room.",
+        "byline": "By Elias Mercer",
+        "paragraphs": [
+          "A florist and a former actress may share a certain understanding of presentation. Evelyn Greene knows that a thoughtful arrangement can change the feeling of a space without requiring a speech.",
+          "That does not mean a speech is out of the question. Her opinions, flowers and protective grandmotherly instincts are all delivered with conviction. Those looking for a quiet seasonal touch may discover that Evelyn has a slightly more theatrical interpretation of quiet."
+        ]
+      },
+      {
+        "id": "baking",
+        "category": "FROM THE BAKERY",
+        "title": "Small treats, carefully finished",
+        "deck": "Sugar Dust brings a cheerful touch to the season.",
+        "byline": "By Elias Mercer",
+        "paragraphs": [
+          "Emila Wren’s seasonal baking gives her creativity a delicious outlet. At Sugar Dust, flour-dusted sleeves and a hummed tune accompany cakes and treats made with an eye for colour and detail.",
+          "Edible flowers are a particular pleasure. The Chronicle will not attempt a verdict on which decoration looks best; experience suggests that admiring a cake and choosing a slice are separate editorial tasks. Emila’s optimism makes both rather agreeable."
+        ]
+      },
+      {
+        "id": "swan",
+        "category": "QUIET CORNERS",
+        "title": "An innkeeper’s view of comfort",
+        "deck": "The Slumbering Swan takes a measured approach.",
+        "byline": "By Elias Mercer",
+        "paragraphs": [
+          "Silas Sommers has clear preferences about a welcoming stay. Excellent coffee is available for guests, chamomile tea suits the innkeeper, and televisions do not belong in the guest bedrooms.",
+          "Antique pillows and feather beds attract his interest; unnecessary noise does not. Drowse, his ginger cat, seems entirely content with this arrangement. In a season that can make a great deal of demands on the attention, the Chronicle finds something appealing in a place that allows it to settle."
+        ]
+      },
+      {
+        "id": "safety",
+        "category": "COMMUNITY CARE",
+        "title": "The quiet work of being ready",
+        "deck": "Caleb Ashford’s attention extends beyond a rescue.",
+        "byline": "By Elias Mercer",
+        "paragraphs": [
+          "Fire chief Caleb Ashford’s courage is only one part of the job. Practical preparation, equipment checks and working with the town’s other emergency services are less dramatic duties, but no less important.",
+          "The Chronicle’s interest is in the person behind that work: compassionate, willing to help and sometimes quicker to volunteer than to hesitate. This is appreciation for a local role, not an announcement of an incident. There is no emergency hidden in the headline."
+        ]
+      },
+      {
+        "id": "editorial",
+        "category": "FROM THE EDITOR",
+        "title": "Remember the people doing the preparing",
+        "deck": "The smallest kindnesses take somebody’s time.",
+        "byline": "Editorial · Elias Mercer",
+        "paragraphs": [
+          "A carefully made gift, a welcoming counter and a repaired decoration do not appear without effort. Somebody has given them attention. It is easy to enjoy the result and forget the work.",
+          "This month, the Chronicle offers a little space to noticing it. Thank the person who remembers your usual, makes room at the table or stays to finish the task. It is a modest editorial position, but one this paper is content to defend."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2027-01",
+    "number": 4,
+    "label": "January 2027",
+    "stories": [
+      {
+        "id": "clocks",
+        "category": "MAIN STREET",
+        "title": "A fresh calendar, the same exacting standards",
+        "deck": "Arthur Bell has little sympathy for a careless clock.",
+        "byline": "By Elias Mercer",
+        "paragraphs": [
+          "A new year changes the calendar rather more readily than Arthur Bell’s habits. At The Ticking Time Peace, patience, precision and a well-kept waistcoat remain in good order.",
+          "His pocket watch is a familiar companion, as is a dry remark about punctuality. Residents tempted to explain that they have run out of time may wish to prepare for the raised eyebrow. The Chronicle has decided to submit its copy promptly rather than test the matter."
+        ]
+      },
+      {
+        "id": "repair",
+        "category": "AFTER THE FESTIVITIES",
+        "title": "Keep the good bits",
+        "deck": "Porter Tinker sees possibilities in a broken decoration.",
+        "byline": "By Elias Mercer",
+        "paragraphs": [
+          "A decoration that has seen better days may still have another use in an inventive pair of hands. Porter Tinker’s enthusiasm for repairs and new projects makes him a lively presence around toymaking.",
+          "His finished inventions are sometimes surprising in ways the first plan did not quite anticipate. The pleasure lies in trying, learning and finding out what a project can become. No new invention is announced here; the Chronicle is simply keeping an interested eye on his work."
+        ]
+      },
+      {
+        "id": "winter",
+        "category": "AROUND TOWN",
+        "title": "A season worth a thick jumper",
+        "deck": "Jacques Winter finds plenty to enjoy at the rink.",
+        "byline": "By Elias Mercer",
+        "paragraphs": [
+          "For Jacques Winter, winter weather is something to enjoy rather than merely endure. Ice hockey suits his competitive spirit, while time with Archie offers room for friendship beyond the game.",
+          "His enthusiasm occasionally gets ahead of his caution, but loyalty is a steadier feature. The Chronicle has no match result to report and no score to invent. This is an appreciation of a resident who can be counted on to find something worth doing on a cold day."
+        ]
+      },
+      {
+        "id": "dentist",
+        "category": "EVERYDAY ROUTINES",
+        "title": "A small question with a firm answer",
+        "deck": "Pearl White would like a word about floss.",
+        "byline": "By Elias Mercer",
+        "paragraphs": [
+          "Pearl White’s reassuring manner at Pearly Whites comes with clear expectations. She appreciates a healthy smile and is unlikely to forget the practical habits behind it.",
+          "Her interest in antique tooth boxes adds an unusual collecting hobby to the conversation. The Chronicle leaves clinical advice to the dental practice, but observes that nobody seems especially eager to admit forgetting the floss. A cheerful voice can carry a surprisingly firm reminder."
+        ]
+      },
+      {
+        "id": "sky",
+        "category": "AFTER SUNSET",
+        "title": "The pleasure of looking up",
+        "deck": "Julian Vale keeps his attention on the sky.",
+        "byline": "By Elias Mercer",
+        "paragraphs": [
+          "An astronomer’s working hours can leave plenty of room for quiet thought. Julian Vale brings a dreamy manner and a fondness for midnight-blue coats to Cedar Hollow’s evenings.",
+          "His advice sometimes takes a poetic turn; his attention sometimes wanders further still. He remains certain that the moon offers something different to notice tonight. The Chronicle is content to leave that as an invitation to look, rather than a forecast or a promise about the weather."
+        ]
+      },
+      {
+        "id": "editorial",
+        "category": "FROM THE EDITOR",
+        "title": "A resolution to keep asking",
+        "deck": "Some habits are worth taking into the new year.",
+        "byline": "Editorial · Elias Mercer",
+        "paragraphs": [
+          "There is a temptation to promise a completely different self at the start of January. The Chronicle intends to remain a newspaper: curious about its neighbours, fond of a careful question and unwilling to surrender all the good stories to the radio.",
+          "What can change is the care we bring to familiar work. We shall endeavour to listen before concluding, check before announcing and leave room for a correction. Readers may keep this paragraph. Felix almost certainly will."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2027-02",
+    "number": 5,
+    "label": "February 2027",
+    "stories": [
+      {
+        "id": "valentine",
+        "category": "MATTERS OF THE HEART",
+        "title": "A busy month for Ever After",
+        "deck": "Valentine Dae has plenty to say about romance.",
+        "byline": "By Elias Mercer",
+        "paragraphs": [
+          "February gives matchmaker Valentine Dae ample opportunity to be charming, dramatic and interested in everybody else’s prospects. Pink and burgundy tailoring suit the occasion; a well-chosen question suits his profession.",
+          "The Sweethearts Festival on Main Street and the town’s February celebrations give the season its shape. Exact arrangements will be announced when finalised. The Chronicle is not selecting a date, booking a table or promising any particular romantic outcome on the reader’s behalf."
+        ]
+      },
+      {
+        "id": "singles",
+        "category": "COMMUNITY CONVERSATION",
+        "title": "An invitation without a grand entrance",
+        "deck": "There is room for a little less pressure.",
+        "byline": "By Elias Mercer",
+        "paragraphs": [
+          "Valentine’s singles gathering is part of Cedar Hollow’s February plans, with the venue still to be confirmed. Noah’s café has been suggested, but a suggestion is not a reservation and this paper is determined to know the difference.",
+          "The appeal of a friendly introduction does not require a dramatic declaration. Sometimes conversation is enough. Anyone needing a speech about the matter will probably find Valentine ready to provide one, though the Chronicle would not wish to steal his opening remarks."
+        ]
+      },
+      {
+        "id": "flowers",
+        "category": "FROM THE FLORIST",
+        "title": "Evelyn has an opinion about roses",
+        "deck": "Thoughtful flowers, confidently recommended.",
+        "byline": "By Elias Mercer",
+        "paragraphs": [
+          "Evelyn Greene has little difficulty making the case for roses. February provides another opportunity to do so, with the florist’s theatrical confidence and affection for her work both in good supply.",
+          "The Chronicle will leave actual offers and availability to Evelyn’s announcements. There is no price list tucked into this report. What matters here is the attention behind a gesture: choosing something for a particular person rather than simply choosing something because the calendar has suggested it."
+        ]
+      },
+      {
+        "id": "diner",
+        "category": "A TABLE FOR TWO",
+        "title": "A familiar setting for a special evening",
+        "deck": "The Olive and Adder has a place in the month’s plans.",
+        "byline": "By Elias Mercer",
+        "paragraphs": [
+          "The Olive and Adder’s couples night is among the town’s February traditions. A diner with red leather booths, comforting food and Cassia Stone’s finely measured wit offers a setting with plenty of character.",
+          "Confirmed arrangements belong in the official notices when ready; the Chronicle is not announcing an exact night or a special menu. Cassia, meanwhile, remains an excellent reminder that politeness is appropriate whether the table holds one person, two people or an entire committee."
+        ]
+      },
+      {
+        "id": "airwaves",
+        "category": "WCHL WATCH",
+        "title": "Romantic advice, on air",
+        "deck": "Felix finds plenty to ask his frequent guest.",
+        "byline": "By Elias Mercer",
+        "paragraphs": [
+          "Valentine Dae’s visits to Felix Bellomy’s show provide plenty of material for conversation. A hopelessly nosy presenter and a delightfully nosy matchmaker are unlikely to run out of questions for one another.",
+          "Felix greets the romantic advice with interest and a measure of suspicion. The Chronicle is not reporting a private romance, and listeners should resist the temptation to treat every question as a confession. Some of us simply enjoy an interview."
+        ]
+      },
+      {
+        "id": "editorial",
+        "category": "FROM THE EDITOR",
+        "title": "Affection has more than one address",
+        "deck": "A month for appreciating your people.",
+        "byline": "Editorial · Elias Mercer",
+        "paragraphs": [
+          "Romance may have the busiest calendar in February, but it has no monopoly on affection. A friend remembering your order, a neighbour offering help and somebody making time to listen are worth noticing too.",
+          "The Chronicle would like to leave room for those gestures among the flowers and festival plans. No dramatic reveal is required. A quiet kindness is still news to the person who receives it."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2027-03",
+    "number": 6,
+    "label": "March 2027",
+    "stories": [
+      {
+        "id": "spring",
+        "category": "SEASONAL PLANS",
+        "title": "Egg hunts, flowers and something sweet",
+        "deck": "A look ahead without announcing a date too soon.",
+        "byline": "By Elias Mercer",
+        "paragraphs": [
+          "Cedar Hollow’s annual egg hunt and spring festival bring flowers and sweet treats into the town’s seasonal plans. Easter falls on 28 March this year, but the exact local event arrangements have not yet been confirmed.",
+          "The Chronicle is therefore making no announcement about an event date, location or host. Margaret Ashcombe may consider this evidence of progress. Readers can look forward to the season without mistaking an editorial preview for an official invitation."
+        ]
+      },
+      {
+        "id": "gardens",
+        "category": "AROUND THE FLOWER BEDS",
+        "title": "A little patience before the colour",
+        "deck": "Margaret’s care for the town extends beyond the paperwork.",
+        "byline": "By Elias Mercer",
+        "paragraphs": [
+          "Mayoral business and practical gardening are both part of Margaret Ashcombe’s life. She is as comfortable checking a flower bed as settling an argument, with seeds in her pockets and calm authority in her voice.",
+          "The Chronicle is not a planting guide and will leave specific advice to those who know the local conditions. It can, however, appreciate the patience involved in caring for a shared place. A pleasant view usually represents somebody’s work."
+        ]
+      },
+      {
+        "id": "baking",
+        "category": "SUGAR DUST",
+        "title": "A spring idea, carefully decorated",
+        "deck": "Emila Wren finds inspiration in small details.",
+        "byline": "By Elias Mercer",
+        "paragraphs": [
+          "Seasonal treats give Emila Wren another reason to think about colour, flavour and decoration. At Sugar Dust, her fondness for edible flowers makes an especially natural companion to springtime ideas.",
+          "The Chronicle is not announcing a new product or claiming a special order has been placed. It is enjoying the imagination behind the work. A cheerful baker with flour on her sleeves can make the everyday feel like something worth celebrating."
+        ]
+      },
+      {
+        "id": "coast",
+        "category": "BEYOND MAIN STREET",
+        "title": "Keeping the coast in mind",
+        "deck": "River Fisher’s interests begin at the water’s edge.",
+        "byline": "By Elias Mercer",
+        "paragraphs": [
+          "Marine life is no passing interest for River Fisher. Adventure and compassion sit alongside a determined concern for the coast, whether the day involves a swim, a collection of shells or time watching the harbour.",
+          "The Chronicle will not turn that interest into invented research findings. Caring about a place is reason enough for a story. There is much to notice beyond the shops and cafés, and residents such as River help keep the wider landscape in view."
+        ]
+      },
+      {
+        "id": "details",
+        "category": "LOCAL OBSERVATIONS",
+        "title": "A question for every overlooked detail",
+        "deck": "Reina Mori has a patient eye for a puzzle.",
+        "byline": "By Elias Mercer",
+        "paragraphs": [
+          "Deputy Reina Mori combines a calm professional manner with sharp perception and a fondness for puzzles. The little detail everyone else has passed over is often the one that interests her.",
+          "Gideon Rook values his trusted deputy’s work, even if harmless office mischief leaves him with questions of his own. The Chronicle is not printing a case file or making an allegation. This is merely an appreciation of somebody who understands the value of paying attention."
+        ]
+      },
+      {
+        "id": "editorial",
+        "category": "FROM THE EDITOR",
+        "title": "A preview is not an announcement",
+        "deck": "The mayor should not have to say it twice.",
+        "byline": "Editorial · Elias Mercer",
+        "paragraphs": [
+          "There is a difference between looking forward to a town event and declaring that its arrangements are complete. The Chronicle has devoted a little space this month to remembering that difference.",
+          "We can celebrate a tradition without inventing its meeting place. We can enjoy an idea without attaching a date nobody has agreed. This may be less exciting than Felix’s most enthusiastic announcements, but it has the considerable advantage of being fair to the people doing the organising."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2027-04",
+    "number": 7,
+    "label": "April 2027",
+    "stories": [
+      {
+        "id": "books",
+        "category": "TWILIGHT BOOKS",
+        "title": "A story changes when somebody else reads it",
+        "deck": "The pleasures of a shared reading life.",
+        "byline": "By Elias Mercer",
+        "paragraphs": [
+          "A book club does not require every reader to have the same experience. That is rather the point. Evelyn Greene’s monthly gathering at Daniel Blackwood’s after-sunset bookshop leaves room for more than one interpretation.",
+          "The Chronicle will wait for actual reading choices and meeting notices before reporting them. Until then, it is worth appreciating a place where a comfortable chair can lead to a thoughtful disagreement—and, occasionally, a new way of understanding a familiar page."
+        ]
+      },
+      {
+        "id": "animals",
+        "category": "FOUR PAWS",
+        "title": "Patience for the nervous visitor",
+        "deck": "Warren Hund brings a gentle manner to his work.",
+        "byline": "By Elias Mercer",
+        "paragraphs": [
+          "Animals do not arrive at a veterinary clinic with the words to explain their worries. Warren Hund’s gentleness and particular affection for abandoned pets make patience an important part of his work at Four Paws.",
+          "He is reserved in company and often happiest on a walk. The Chronicle respects the privacy of clients and their animals, so no case history appears here. Sometimes the story worth telling is the quiet character of the person ready to help."
+        ]
+      },
+      {
+        "id": "treasures",
+        "category": "SECOND CHANCES",
+        "title": "The object somebody else nearly missed",
+        "deck": "Maribel Finch keeps an interested eye.",
+        "byline": "By Elias Mercer",
+        "paragraphs": [
+          "At estate sales and among discarded furniture, Maribel Finch sees possibilities. Second Chances gives those finds an audience, from a useful chair to an ornament that catches somebody’s attention for no practical reason at all.",
+          "The proprietor’s enthusiasm is part of the experience. Curious, theatrical and fond of a striking detail, she can make a browse feel like the beginning of a story. The Chronicle recommends remembering the distinction between admiration and ownership before borrowing anything."
+        ]
+      },
+      {
+        "id": "jewellery",
+        "category": "THE GOLDEN CLOVER",
+        "title": "An eye for the small and valuable",
+        "deck": "Patrick Doyle takes the details seriously.",
+        "byline": "By Elias Mercer",
+        "paragraphs": [
+          "Gemstones and coins reward careful attention, something jeweller Patrick Doyle is ready to provide. His wit and increasingly ambitious stories can make a visit to The Golden Clover as much a conversation as a professional errand.",
+          "Sebastian Drake offers another perspective on the value of gold, and their exchanges are unlikely to end the subject for good. The Chronicle is recording a friendly professional interest, not offering an appraisal or financial advice."
+        ]
+      },
+      {
+        "id": "cemetery",
+        "category": "QUIET WORK",
+        "title": "Care for the places that hold a town’s memories",
+        "deck": "Edward Davidson tends an important corner of Cedar Hollow.",
+        "byline": "By Elias Mercer",
+        "paragraphs": [
+          "Quiet, dutiful and thoughtful, Edward Davidson approaches cemetery groundskeeping with respect for the place and the people who visit it. A peaceful setting does not look after itself.",
+          "The Chronicle has no private bereavement to report and no particular memorial to announce. This is a note of appreciation for steady work that can easily pass unnoticed. Maintaining a place with care is one way of recognising that a community has a past as well as a present."
+        ]
+      },
+      {
+        "id": "editorial",
+        "category": "FROM THE EDITOR",
+        "title": "Six months of small stories",
+        "deck": "The town still has plenty to say.",
+        "byline": "Editorial · Elias Mercer",
+        "paragraphs": [
+          "This newspaper’s interest in Cedar Hollow has not been exhausted by its first handful of editions. A repair shop, a bookshop, a familiar café table: each offers another way to see the same community.",
+          "There will always be a temptation to demand a grand revelation. The Chronicle remains interested in the details that make the larger story worth caring about. People are not merely the subjects of headlines. They are the reason a town has a newspaper at all."
+        ]
+      }
+    ]
+  }
+]
