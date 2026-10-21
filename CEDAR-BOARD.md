@@ -35,3 +35,7 @@ More residents can join gradually, keeping their knowledge consistent with this 
 ## Scheduled week of 19–25 October 2026
 
 Three additional everyday notices are scheduled at 09:00 UK time: Agnes’s wandering cake tin on Wednesday 21 October, Noah’s café teaspoons on Friday 23 October and Maribel’s musical teapot on Sunday 25 October. Sunday uses `+00:00` because British Summer Time ends that morning; Wednesday and Friday use `+01:00`. No release date is set, so the release storyline remains inactive.
+
+## Expanded resident reference
+
+The author supplied additional resident profiles on 21 October 2026 for future community-board writing. The full reference is stored privately outside this repository. Consult it alongside earlier manuscript evidence before preparing new batches. Use everyday work, voices and harmless habits; receiving confidential cast notes does not authorise publishing identities, secret romances, family revelations or origin stories. Do not copy the private reference into public JSON or documentation. Keep the established release-stage restrictions and seasonal calendar. No new posts were scheduled merely by receiving this reference.
