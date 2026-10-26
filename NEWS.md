@@ -27,4 +27,4 @@ The website retrieves public news from `api.github.com` when visitors open or re
 
 ## Website-authored updates
 
-Posts marked `data-local-news` in `index.html` appear alongside GitHub news, sorted by their `<time datetime>` date. They support ordinary HTML links and remain visible if the GitHub API is unavailable. The cover-bookmark announcement is a website-authored post. These posts count towards the same six-post expansion limit.
+Posts marked `data-local-news` in `index.html` appear alongside GitHub news, sorted by their `<time datetime>` date. They support ordinary HTML links and remain visible if the GitHub API is unavailable. The cover-bookmark announcement and the 26 October 2026 announcement of My Neighbour Is a Vampire’s 25 June 2027 release are website-authored posts. These posts count towards the same six-post expansion limit.
