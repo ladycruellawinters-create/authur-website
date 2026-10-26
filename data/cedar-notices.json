@@ -346,5 +346,122 @@
     "signature": "Maribel Finch · Second Chances",
     "publishAt": "2026-10-25T09:00:00+00:00",
     "paper": "pink"
+  },
+  {
+    "id": "autumn-2026-10-28",
+    "category": "A neighbourly reminder",
+    "title": "You do not have to bring anything",
+    "body": "If someone invites you in for a cup of tea, you are allowed to arrive without a cake, a gift or an apology for being a bother.\n\nYour company is quite enough. Though if you happen to leave with a slice of pie, I would appreciate the plate back eventually.",
+    "signature": "Agnes Hart · 5 Maple Grove",
+    "publishAt": "2026-10-28T09:00:00+00:00",
+    "paper": "cream"
+  },
+  {
+    "id": "autumn-2026-10-30",
+    "category": "Autumn around town",
+    "title": "A word about the pumpkins",
+    "body": "A reminder that choosing a pumpkin does not require an expert panel, three competing opinions and a second visit to inspect the other side.\n\nHaving said that, this year’s are particularly good. Possibly my best yet.\n\nAnyone heard saying that I said that last year is welcome to admire how consistent I am.",
+    "signature": "Jack Crow",
+    "publishAt": "2026-10-30T09:00:00+00:00",
+    "paper": "cream"
+  },
+  {
+    "id": "autumn-2026-10-31",
+    "category": "A word from the mayor",
+    "title": "A very happy Halloween, Cedar Hollow",
+    "body": "Wishing all our residents a very happy Halloween. Enjoy the costumes, admire the pumpkins and look after one another while you celebrate.\n\nAnd please do not fill up on too much candy. Yes, that reminder is for the grown-ups as well.\n\nA little moderation now will leave you far more comfortable tomorrow. Have a lovely evening, everyone.",
+    "signature": "Margaret Ashcombe · Mayor",
+    "publishAt": "2026-10-31T09:00:00+00:00",
+    "paper": "pink"
+  },
+  {
+    "id": "autumn-2026-11-01",
+    "category": "Lost & found",
+    "title": "One scarf, not a trail marker",
+    "body": "I have found a knitted scarf with a very determined collection of leaves attached.\n\nIf it is yours, please describe the colour when you ask me for it. The leaves will not be a reliable means of identification by then.\n\nThank you to everyone taking their litter home. The woods do not need souvenirs of your lunch.",
+    "signature": "Saz Step · Park ranger",
+    "publishAt": "2026-11-01T09:00:00+00:00",
+    "paper": "green"
+  },
+  {
+    "id": "autumn-2026-11-04",
+    "category": "From the airwaves",
+    "title": "A small correction to this morning’s broadcast",
+    "body": "Good morning, Cedar Hollow. For the benefit of Arthur Bell, who has already made his feelings admirably clear: it was not, in fact, twenty past whenever-you-like.\n\nThe clocks are blameless. The presenter is considering his position.\n\nElias, if this becomes tomorrow’s headline, I expect to be credited as your source.",
+    "signature": "Felix Bellomy · WCHL 88.3",
+    "publishAt": "2026-11-04T09:00:00+00:00",
+    "paper": "blue"
+  },
+  {
+    "id": "autumn-2026-11-06",
+    "category": "Workshop matters",
+    "title": "It is not a box of rubbish",
+    "body": "The box of small parts beside my workbench is a box of small parts.\n\nIt is not rubbish. It is not a collection for the thrift shop. And it is certainly not improved by somebody tidying it into a different box without telling me.\n\nI knew exactly where everything was. Approximately.",
+    "signature": "Greta Grindle · Gears & Grime",
+    "publishAt": "2026-11-06T09:00:00+00:00",
+    "paper": "cream"
+  },
+  {
+    "id": "autumn-2026-11-08",
+    "category": "Neighbourhood requests",
+    "title": "A small matter of glitter",
+    "body": "If you are returning borrowed craft supplies, please put the lids on before putting them in the bag.\n\nThe intention was for the decorations to sparkle. The inside of my coat was not part of the project.\n\nThank you to everyone who remembered. I know precisely who you are.",
+    "signature": "Martha Klaus",
+    "publishAt": "2026-11-08T09:00:00+00:00",
+    "paper": "pink"
+  },
+  {
+    "id": "autumn-2026-11-11",
+    "category": "Between the shelves",
+    "title": "An entirely respectable bookmark",
+    "body": "A bookmark does not have to be beautiful, expensive or even intended as a bookmark.\n\nIt should, however, preferably not be a slice of toast.\n\nWhoever left the evidence between chapters six and seven may collect their crumbs. I shall be keeping my opinion of the practice.",
+    "signature": "Daniel Blackwood · Twilight Books",
+    "publishAt": "2026-11-11T09:00:00+00:00",
+    "paper": "blue"
+  },
+  {
+    "id": "autumn-2026-11-13",
+    "category": "A note from the innkeeper",
+    "title": "The calendar is not a guest complaint",
+    "body": "I have been asked whether Friday the thirteenth affects the quality of the beds.\n\nIt does not.\n\nDrowse has tested his usual chair at considerable length and reports no difficulties, though I cannot claim to have received his findings in writing.\n\nThe coffee remains excellent. Please try not to spill it while blaming the date.",
+    "signature": "Silas Sommers · The Slumbering Swan",
+    "publishAt": "2026-11-13T09:00:00+00:00",
+    "paper": "cream"
+  },
+  {
+    "id": "autumn-2026-11-15",
+    "category": "From the shop counter",
+    "title": "The list would help",
+    "body": "I am always happy to help you find the thing you came in for.\n\nIf your description is “the usual thing, in the packet, somewhere near the other thing”, we may need to make an afternoon of it.\n\nDo bring your shopping list. Remembering to write one and remembering to take it with you are separate achievements.",
+    "signature": "Henry Holloway · Holloway’s Convenience Store",
+    "publishAt": "2026-11-15T09:00:00+00:00",
+    "paper": "green"
+  },
+  {
+    "id": "autumn-2026-11-18",
+    "category": "A friendly word",
+    "title": "A very brief reminder",
+    "body": "This notice is not an accusation.\n\nIt is simply a cheerful opportunity to remember where you put the dental floss.\n\nIf you have just looked away from the board rather quickly, I shall choose to believe you have gone to find it.",
+    "signature": "Pearl White · Pearly Whites",
+    "publishAt": "2026-11-18T09:00:00+00:00",
+    "paper": "pink"
+  },
+  {
+    "id": "autumn-2026-11-20",
+    "category": "From the bakery",
+    "title": "A compliment is not a collection order",
+    "body": "To the lovely person who said the cake in the window was too pretty to eat: thank you.\n\nTo everyone who has repeated this and then asked for a slice: I understand completely.\n\nPlease do not feel obliged to preserve the decoration for posterity. I promise I would rather it made somebody happy than spent the week being admired from a distance.",
+    "signature": "Emila Wren · Sugar Dust",
+    "publishAt": "2026-11-20T09:00:00+00:00",
+    "paper": "pink"
+  },
+  {
+    "id": "autumn-2026-11-22",
+    "category": "A word about time",
+    "title": "A convenient explanation",
+    "body": "If you arrive late and explain that Felix gave you the time, I shall sympathise.\n\nIf you use this explanation twice, I shall recommend a clock.\n\nIf you use it a third time, I shall begin to suspect that the radio is not the difficulty.",
+    "signature": "Arthur Bell · The Ticking Time Peace",
+    "publishAt": "2026-11-22T09:00:00+00:00",
+    "paper": "blue"
   }
 ]

@@ -16,7 +16,7 @@ If the notice file is unavailable, a clear retry message replaces the loading te
 
 ## The town’s story follows publication
 
-`data/cedar-board-settings.json` currently has `vampireReleaseDate: null`: no release date has been supplied. Ordinary launch notices include Agnes while she is alive. Oliver does not write notices before arriving in town.
+The author confirmed **Friday 25 June 2027** on 26 October 2026. `data/cedar-board-settings.json` now has `vampireReleaseDate: "2027-06-25"`. Ordinary launch notices include Agnes while she is alive. Oliver does not write notices before arriving in town.
 
 The author’s release sequence is prepared as follows:
 
@@ -34,7 +34,7 @@ More residents can join gradually, keeping their knowledge consistent with this 
 
 ## Scheduled week of 19–25 October 2026
 
-Three additional everyday notices are scheduled at 09:00 UK time: Agnes’s wandering cake tin on Wednesday 21 October, Noah’s café teaspoons on Friday 23 October and Maribel’s musical teapot on Sunday 25 October. Sunday uses `+00:00` because British Summer Time ends that morning; Wednesday and Friday use `+01:00`. No release date is set, so the release storyline remains inactive.
+Three additional everyday notices are scheduled at 09:00 UK time: Agnes’s wandering cake tin on Wednesday 21 October, Noah’s café teaspoons on Friday 23 October and Maribel’s musical teapot on Sunday 25 October. Sunday uses `+00:00` because British Summer Time ends that morning; Wednesday and Friday use `+01:00`. That batch was prepared before a release date was set; the confirmed date is now recorded above.
 
 ## Expanded resident reference
 
@@ -43,3 +43,9 @@ The author supplied additional resident profiles on 21 October 2026 for future c
 The author subsequently requested additions to “Meet the neighbours”. The Cedar Hollow lore page now has 38 curated, spoiler-free resident introductions, retaining Oliver and Agnes alongside the expanded cast. Public profiles use occupations, personality and everyday interests; the full confidential reference remains separate. Archie’s displayed surname is now Maximus, with the old `resident-archie-maxius` anchor retained for existing links. The Olive and Adder remains the diner name. This profile update does not create new scheduled notices or change the release storyline.
 
 Felix Bellomy (WCHL 88.3 owner/presenter) and Silas Sommers (The Slumbering Swan innkeeper) were added to the public introductions on 21 October 2026. Their full author notes remain in the private cast reference for future notices; public copy uses only everyday roles, voices and harmless interests. No new notices were scheduled by this addition.
+
+## Confirmed release and resumed autumn batch
+
+The 25 June 2027 release setting activates the existing approved sequence: missing-person notices on **11 June**, Arthur’s death announcement and Margaret’s funeral notice on **12 June**, daily memorials through **24 June**, and Margaret welcoming Oliver on **25 June**. Existing clock times and release-relative rules remain unchanged; no notices from this sequence render early.
+
+Twelve new everyday notices are scheduled at **09:00 UK** on Wednesdays, Fridays and Sundays from **28 October through 22 November 2026**, plus the author-requested extra Halloween greeting from Margaret on **31 October at 09:00**. All dates use GMT. The twelve voices are Agnes, Jack, Saz, Felix, Greta, Martha, Daniel, Silas, Henry, Pearl, Emila and Arthur. Previous posts are retained. This finite queue needs a new batch for 25 November onward. No private identities or family/romance revelations appear in these new notices.
