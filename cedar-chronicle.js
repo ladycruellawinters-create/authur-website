@@ -11,7 +11,7 @@
   const mast=node('header','paper-masthead');mast.append(node('p','paper-motto','LOCAL STORIES. FAMILIAR FACES. A FEW QUESTIONS.'));
   const title=node('h1',null,'The Cedar Hollow');title.append(document.createElement('br'),document.createTextNode('Chronicle'));mast.append(title);
   const edition=node('div','paper-edition');const time=node('time',null,issue.label);time.dateTime=issue.id;
-  edition.append(node('span',null,`Issue No. ${String(issue.number).padStart(2,'0')}`),time,node('span',null,'Monthly edition · Cedar Hollow, Maine'));mast.append(edition);fragment.append(mast);
+  edition.append(node('span',null,`Issue No. ${String(issue.number).padStart(2,'0')}`),time,node('span',null,`${issue.kind==='special'?'Special':'Monthly'} edition · Cedar Hollow, Maine`));mast.append(edition);fragment.append(mast);
   const front=node('section');front.setAttribute('aria-labelledby','front-heading');const frontHeading=node('h2','paper-section-title','The front page');frontHeading.id='front-heading';front.append(frontHeading);
   const grid=node('div','front-grid');const inside=node('section','inside-paper');inside.setAttribute('aria-labelledby','inside-heading');const insideHeading=node('h2','paper-section-title','Inside this edition');insideHeading.id='inside-heading';inside.append(insideHeading);
   issue.stories.forEach((story,index)=>{
@@ -30,7 +30,7 @@
    chooser.replaceChildren();available.forEach(i=>{const option=node('option',null,`${i.label} · Issue ${String(i.number).padStart(2,'0')}`);option.value=i.id;chooser.append(option);});
   }
   chooser.value=issue.id;controls.hidden=false;
-  status.textContent=requested&&!available.some(i=>i.id===requested)?'That edition is not available. Showing the latest published issue.':`Reading ${issue.label}. New editions appear on the first of the month.`;
+  status.textContent=requested&&!available.some(i=>i.id===requested)?'That edition is not available. Showing the latest published issue.':`Reading ${issue.label}. Monthly editions appear on the first, with special editions on their dated release days.`;
   if(displayed!==issue.id)render(issue);
  }
  chooser.addEventListener('change',()=>{

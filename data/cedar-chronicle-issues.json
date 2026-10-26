@@ -521,5 +521,117 @@
         ]
       }
     ]
+  },
+  {
+    "id": "2027-06-26",
+    "number": "S1",
+    "kind": "special",
+    "label": "Saturday 26 June 2027",
+    "stories": [
+      {
+        "id": "early-harvest",
+        "category": "LOCAL REPORT",
+        "title": "Another early harvest for Jack Crow",
+        "deck": "An unseasonable crop has Cedar Hollow talking.",
+        "byline": "By Elias Mercer",
+        "paragraphs": [
+          "Jack Crow has produced another impressive crop of pumpkins, months before the usual autumn harvest. His family farm has supplied Cedar Hollow for generations, and this year’s wheelbarrow of enormous orange specimens has already prompted talk of an early pumpkin pie competition.",
+          "Asked about his success, Jack suggested that his pumpkins had always known when they were ready. Mayor Margaret Ashcombe praised his talent for growing things and encouraged residents to enjoy the results.",
+          "The Chronicle has not yet received an explanation that will satisfy readers who prefer their pumpkins to consult the calendar."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2027-06-27",
+    "number": "S2",
+    "kind": "special",
+    "label": "Sunday 27 June 2027",
+    "stories": [
+      {
+        "id": "missing-gnomes",
+        "category": "LOCAL REPORT",
+        "title": "Mystery of the missing garden gnomes continues",
+        "deck": "Garden ornaments are disappearing—and reappearing somewhere unexpected.",
+        "byline": "By Elias Mercer",
+        "paragraphs": [
+          "Residents have reported another series of overnight disappearances involving garden ornaments. Three gnomes are missing from beneath an apple tree on Willow Lane, while a resident near the square is seeking a favourite fishing gnome.",
+          "Some ornaments have reappeared in unfamiliar gardens. One household discovered ceramic woodland creatures arranged around a birdbath; a separate gathering beneath a rosebush included a gnome wearing tiny sunglasses.",
+          "Sheriff Gideon Rook has reassured residents that there is no cause for alarm and asked for a little restraint before every suspected change of position becomes a new report."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2027-06-28",
+    "number": "S3",
+    "kind": "special",
+    "label": "Monday 28 June 2027",
+    "stories": [
+      {
+        "id": "lionel-found",
+        "category": "LOCAL REPORT",
+        "title": "Lionel on the loose: missing gnome mover finally found",
+        "deck": "The latest development on Willow Lane.",
+        "byline": "By Elias Mercer",
+        "paragraphs": [
+          "The latest development in Cedar Hollow’s garden ornament mystery has placed a familiar red-hatted figure at the centre of the discussion. A photograph shows Lionel, in his blue coat and white beard, at the head of a procession of ornaments on Willow Lane.",
+          "A resident reported scraping outside a bedroom window shortly after midnight. Other neighbours have blamed Lionel for rearranged ceramic mushrooms and claimed to have heard tiny footsteps.",
+          "Lionel declined to answer questions about his involvement. Sheriff Gideon Rook says the matter is being handled, with an apology among the possible next steps."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2027-06-29",
+    "number": "S4",
+    "kind": "special",
+    "label": "Tuesday 29 June 2027",
+    "stories": [
+      {
+        "id": "blinking-streetlight",
+        "category": "LOCAL REPORT",
+        "title": "Suspicious streetlight continues to blink — residents demand answers",
+        "deck": "Irregular flashes prompt an official investigation.",
+        "byline": "By Elias Mercer",
+        "paragraphs": [
+          "A streetlight on Willow Lane has attracted unusual attention after residents reported a series of irregular flashes. Witnesses have described sequences of three, five and, on one occasion, seven blinks before the light went dark as a passer-by approached.",
+          "The town council has commissioned an investigation, and an official report is being prepared.",
+          "The Chronicle will continue following the matter. For now, the question of whether the light requires a new bulb remains rather easier to ask than the question of why it has acquired so many witnesses."
+        ]
+      },
+      {
+        "id": "lionel-at-large",
+        "category": "A FURTHER NOTICE",
+        "title": "Lionel remains at large",
+        "deck": "An update on Cedar Hollow’s elusive garden ornament.",
+        "byline": "By Elias Mercer",
+        "paragraphs": [
+          "Cedar Hollow’s most elusive garden ornament is the subject of another notice. The small red-hatted figure has apparently departed his usual surroundings again.",
+          "Residents who spot Lionel are asked not to interfere and to contact the appropriate authorities.",
+          "This update follows the recent reports of ornaments being moved between gardens. The Chronicle will leave the question of Lionel’s next destination unanswered until somebody can persuade him to remain in one place."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2027-06-30",
+    "number": "S5",
+    "kind": "special",
+    "label": "Wednesday 30 June 2027",
+    "stories": [
+      {
+        "id": "heatwave",
+        "category": "LOCAL REPORT",
+        "title": "Heatwave expected to sweep through Cedar Hollow",
+        "deck": "A dry spell brings a reminder to look after neighbours, pets and gardens.",
+        "byline": "By Elias Mercer",
+        "paragraphs": [
+          "Temperatures are expected to climb over the coming days, with little rain forecast. Residents are encouraged to drink water, avoid strenuous activity during the hottest hours and check on older neighbours and pets.",
+          "A companion gardening reminder asks residents to pay attention to flower beds during the dry spell.",
+          "With preparations for the Lantern Walk continuing, the Chronicle encourages readers to take the weather into account when offering a hand. The town’s seventy-fifth celebration is set for Saturday 7 August 2027; further organising notices will follow through the usual channels."
+        ]
+      }
+    ]
   }
 ]
