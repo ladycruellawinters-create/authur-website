@@ -451,7 +451,7 @@
     "category": "From the bakery",
     "title": "A compliment is not a collection order",
     "body": "To the lovely person who said the cake in the window was too pretty to eat: thank you.\n\nTo everyone who has repeated this and then asked for a slice: I understand completely.\n\nPlease do not feel obliged to preserve the decoration for posterity. I promise I would rather it made somebody happy than spent the week being admired from a distance.",
-    "signature": "Emila Wren · Sugar Dust",
+    "signature": "Amelia Wren · Sugar Dust",
     "publishAt": "2026-11-20T09:00:00+00:00",
     "paper": "pink"
   },
@@ -462,6 +462,114 @@
     "body": "If you arrive late and explain that Felix gave you the time, I shall sympathise.\n\nIf you use this explanation twice, I shall recommend a clock.\n\nIf you use it a third time, I shall begin to suspect that the radio is not the difficulty.",
     "signature": "Arthur Bell · The Ticking Time Peace",
     "publishAt": "2026-11-22T09:00:00+00:00",
+    "paper": "blue"
+  },
+  {
+    "id": "book-event-2027-06-29",
+    "category": "From the mayor",
+    "title": "A new pair of helping hands",
+    "body": "Please join me in welcoming Oliver Hart to his new role as Town Warden.\n\nHe will be helping with the small practical matters that keep Cedar Hollow running. Please explain the problem clearly, offer him the kindness you would appreciate yourself, and remember that one young man cannot be in three places at once.\n\nAnd do let him finish one assignment before suggesting six more.",
+    "signature": "Margaret Ashcombe · Mayor",
+    "publishAt": "2027-06-29T09:00:00+01:00",
+    "paper": "blue"
+  },
+  {
+    "id": "book-event-2027-06-30",
+    "category": "From the airwaves",
+    "title": "A warm welcome. Rather too warm.",
+    "body": "Good morning, Cedar Hollow! The forecast suggests we are about to enjoy considerably more sunshine than is strictly necessary.\n\nKeep some water handy, check on your neighbours and pets, and consider whether the heaviest job on your list really needs doing in the hottest part of the day.\n\nArthur, before you ask: yes, I am recommending that people take their time. Please enjoy the moment.",
+    "signature": "Felix Bellamy · WCHL 88.3",
+    "publishAt": "2027-06-30T09:00:00+01:00",
+    "paper": "cream"
+  },
+  {
+    "id": "book-event-2027-07-02",
+    "category": "Maple Grove invitation",
+    "title": "An invitation, not a summons",
+    "body": "A reminder to the residents of Maple Grove: the annual Fourth of July barbecue will take place at Number Thirteen on Sunday 4 July, beginning at four in the afternoon.\n\nFood, refreshments, music and entertainment will be provided, with fireworks after sunset.\n\nYour attendance would be most welcome. The formality of the invitation should not be mistaken for a requirement to bring a legal representative.",
+    "signature": "Lucian Cross · 13 Maple Grove",
+    "publishAt": "2027-07-02T09:00:00+01:00",
+    "paper": "cream"
+  },
+  {
+    "id": "book-event-2027-07-05",
+    "category": "A neighbourly thank-you",
+    "title": "A small note of thanks",
+    "body": "My thanks to everyone who joined us at Number Thirteen yesterday. It was a pleasure to have Maple Grove together for the afternoon and evening.\n\nI trust everyone has returned home with their own belongings. If not, please describe the item you believe you have left behind.\n\n“Something from the barbecue” is a category, not a description.",
+    "signature": "Lucian Cross · 13 Maple Grove",
+    "publishAt": "2027-07-05T09:00:00+01:00",
+    "paper": "blue"
+  },
+  {
+    "id": "book-event-2027-07-25",
+    "category": "A small piece of advice",
+    "title": "A measuring tape is a wonderful invention",
+    "body": "Before you ask a friend to help move a wardrobe, please measure the wardrobe.\n\nThen measure the doorway.\n\nThen consider whether your friend’s entirely reasonable hesitation might be based on something other than a lack of enthusiasm.\n\nThis is general advice. I shall not be taking questions about which staircase inspired it.",
+    "signature": "Noah Carter · Déjà Brew",
+    "publishAt": "2027-07-25T18:00:00+01:00",
+    "paper": "green"
+  },
+  {
+    "id": "book-event-2027-07-26",
+    "category": "From the Town Warden",
+    "title": "The board can breathe again",
+    "body": "I have cleared the out-of-date notices from the board beside the fountain. If the summer fair you are advertising took place three years ago, you can probably stop looking for volunteers now.\n\nCurrent notices have been left up. Please include a date on anything new, leave room for other people, and try not to pin six announcements on top of somebody’s missing scarf.\n\nI would quite like to finish this job only once.",
+    "signature": "Oliver Hart · Town Warden",
+    "publishAt": "2027-07-26T18:00:00+01:00",
+    "paper": "green"
+  },
+  {
+    "id": "book-event-2027-07-27",
+    "category": "A council reminder",
+    "title": "The statues have been adequately admired",
+    "body": "Please stop leaving sandwiches, cake and other refreshments beside the decorative statues.\n\nThey do not require lunch, and the town council will remove food left for them.\n\nYou are welcome to admire the stonework. You are also welcome to eat your own sandwich. These activities can be enjoyed at the same time.",
+    "signature": "Margaret Ashcombe · Mayor",
+    "publishAt": "2027-07-27T09:00:00+01:00",
+    "paper": "blue"
+  },
+  {
+    "id": "book-event-2027-07-28",
+    "category": "Borrowed belongings",
+    "title": "About the borrowed ladder",
+    "body": "The town-hall ladder is borrowed, not inherited.\n\nIf it is currently assisting you with a small job that has somehow become several small jobs, please arrange to return it so somebody else can finish theirs.\n\nA note about when it is coming back would be appreciated. Silence is not an extension of the loan.",
+    "signature": "Town Hall",
+    "publishAt": "2027-07-28T09:00:00+01:00",
+    "paper": "cream"
+  },
+  {
+    "id": "book-event-2027-08-02",
+    "category": "Between the shelves",
+    "title": "The notice in the window",
+    "body": "The Lantern Walk flyers are a reminder that Saturday 7 August is nearly upon us.\n\nDo take a moment to admire them. Cream paper and a gold border deserve a little attention, even before you reach the part about the lanterns.\n\nYou may, of course, admire the books afterwards. I am perfectly capable of supporting a town tradition and encouraging a browse in the same evening.",
+    "signature": "Daniel Blackwood · Twilight Books",
+    "publishAt": "2027-08-02T09:00:00+01:00",
+    "paper": "green"
+  },
+  {
+    "id": "book-event-2027-08-06",
+    "category": "From the bakery",
+    "title": "A little patience for the treats",
+    "body": "Looking forward to seeing everyone at the Lantern Walk tomorrow.\n\nI hope you will find a little room for something sweet among the lights, music and all the catching up.\n\nIf you find me dusted with flour before then, please assume the baking is going well. If I am humming, please assume it is still going well. Neither is a reason to begin sampling before I have finished.",
+    "signature": "Amelia Wren · Sugar Dust",
+    "publishAt": "2027-08-06T09:00:00+01:00",
+    "paper": "pink"
+  },
+  {
+    "id": "book-event-2027-08-07",
+    "category": "Lantern Walk",
+    "title": "A little light for everyone",
+    "body": "Today is Cedar Hollow’s seventy-fifth Lantern Walk. I hope you will join us as we gather to celebrate the people we love and remember those we miss.\n\nThe square will have music, market stalls and plenty of familiar faces. Please make room for anyone arriving on their own; a place among neighbours should never depend on bringing somebody with you.\n\nI look forward to seeing your lovely faces this evening.",
+    "signature": "Margaret Ashcombe · Mayor",
+    "publishAt": "2027-08-07T09:00:00+01:00",
+    "paper": "blue"
+  },
+  {
+    "id": "book-event-2027-08-08",
+    "category": "A word of thanks",
+    "title": "Thank you for bringing the light",
+    "body": "Thank you to everyone who helped make last night’s Lantern Walk a shared celebration.\n\nWhether you prepared something, lent a hand or made somebody feel welcome, you helped make Cedar Hollow the sort of place we are glad to call home.\n\nPlease keep that kindness going after the lanterns have been put away. It is useful on an ordinary Sunday, too.",
+    "signature": "Margaret Ashcombe · Mayor",
+    "publishAt": "2027-08-08T09:00:00+01:00",
     "paper": "blue"
   }
 ]
