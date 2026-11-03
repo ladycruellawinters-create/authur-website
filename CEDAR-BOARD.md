@@ -61,3 +61,7 @@ The author separately requires approval before any in-book newspaper stories are
 After reviewing all twelve notices in chat, the author approved them with one correction: the baker is **Amelia Wren**, superseding Emila/Emilia spellings in all older notes and manuscript variants. Public profiles, existing notice signatures and newspaper text now use Amelia. The earlier profile anchors remain aliases.
 
 The twelve approved notices are scheduled for 29/30 June, 2/5/25/26/27/28 July, and 2/6/7/8 August 2027. All publish at **09:00 UK**, except Noah's 25 July wardrobe note and Oliver's 26 July board-cleanup note at **18:00 UK**. They use explicit BST offsets (+01:00). They are additions to the existing release sequence, not replacements, and begin after the 25 June release. Body text matches the reviewed drafts; only the baker's name was corrected. Original source/date notes remain private. No additional book events or identities are authorised by this approval.
+
+## Regular queue extension — 3 November 2026
+
+Twelve new everyday notices extend the Cedar Hollow queue from 25 November through 20 December 2026, every Wednesday, Friday and Sunday at 09:00 UK. They use approved resident voices and seasonal preparation, without invented festival dates, identity disclosures or private plot developments. Agnes is alive in this pre-release period; Oliver does not appear early. Existing release-relative and approved book-event notices are untouched. Another regular batch is needed from 23 December onward.

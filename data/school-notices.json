@@ -259,5 +259,113 @@
     "body": "If you would like to join one of the friendly weekend duelling matches I organise, come and speak to me. We use the duelling classroom.\n\nYou do not need to arrive feeling confident. Having someone patient to practise with is rather the point.",
     "signature": "Nia Blackwater · Idris",
     "publishAt": "2026-11-14T09:00:00+00:00"
+  },
+  {
+    "house": "idris",
+    "category": "Shared spaces",
+    "title": "A place for your belongings",
+    "body": "If you have finished using the common-room table, please take your books and belongings with you.\n\nOther students should be able to find somewhere to work without first establishing which abandoned pile belongs to whom. A little consideration makes the room more useful for everyone.",
+    "signature": "Professor Morwyn · Head of Idris House",
+    "id": "winter-batch-2026-11-18",
+    "publishAt": "2026-11-18T09:00:00+00:00"
+  },
+  {
+    "house": "talar",
+    "category": "A small request",
+    "title": "A perfectly good drawing",
+    "body": "If you borrow a page of river sketches, please keep it somewhere dry.\n\nI appreciate the interest. I am less certain about the recent experiment in making the ink resemble the actual movement of water.\n\nA description of what you noticed will do next time.",
+    "signature": "Emlyn Merrick · Talar",
+    "id": "winter-batch-2026-11-20",
+    "publishAt": "2026-11-20T09:00:00+00:00"
+  },
+  {
+    "house": "school",
+    "category": "A little encouragement",
+    "title": "Two accounts, one question",
+    "body": "When two accounts of the same event disagree, it does not mean you have failed to understand the reading. Noticing the disagreement is a useful beginning.\n\nBring the passages you are unsure about and we can look at them together. You need not arrive with the answer already prepared.",
+    "signature": "Professor Morwenna · Deputy Headmistress",
+    "id": "winter-batch-2026-11-22",
+    "publishAt": "2026-11-22T09:00:00+00:00"
+  },
+  {
+    "house": "idris",
+    "category": "From your prefect",
+    "title": "A loan of considerable importance",
+    "body": "To whoever borrowed my pencil: I hope it is enjoying its education.\n\nI would quite like it back before it knows more history than I do.\n\nAnd if you need a hand with something rather more troublesome than a missing pencil, come and find me. I promise to be at least as helpful as I am dramatic.",
+    "signature": "Carwyn Jones · Idris Prefect",
+    "id": "winter-batch-2026-11-25",
+    "publishAt": "2026-11-25T09:00:00+00:00"
+  },
+  {
+    "house": "goch",
+    "category": "Study company",
+    "title": "An audience of one would do",
+    "body": "I am trying to practise explaining my notes aloud without deciding halfway through that the ceiling looks unusually interesting.\n\nIf another older student would like to trade a few minutes of patient listening, I can offer the same in return. We can find somewhere that does not disturb anyone working quietly.\n\nApplause is optional. Finishing the explanation is the ambition.",
+    "signature": "Llio Pritchard · Goch",
+    "id": "winter-batch-2026-11-27",
+    "publishAt": "2026-11-27T09:00:00+00:00"
+  },
+  {
+    "house": "school",
+    "category": "Flying matters",
+    "title": "Firm fingers, sensible flying",
+    "body": "Cold fingers make clumsy choices. Check your kit, keep your grip comfortable and tell me if something is troubling you before we begin.\n\nPreparation before performance. Sensible students speak up; silent suffering earns no special praise.",
+    "signature": "Professor Woodroofe",
+    "id": "winter-batch-2026-11-29",
+    "publishAt": "2026-11-29T09:00:00+00:00"
+  },
+  {
+    "house": "idris",
+    "category": "Between the pages",
+    "title": "Please leave the page where it belongs",
+    "body": "If you find a useful passage in a library book, a note of the page number is a wonderful thing.\n\nFolding the corner until it resembles a small mountain is less helpful to the next reader.\n\nI am still making my way through the shelves and would quite like the books to survive the journey. Happy to help if you are looking for something for theory or history.",
+    "signature": "Nia Blackwater · Idris",
+    "id": "winter-batch-2026-12-02",
+    "publishAt": "2026-12-02T09:00:00+00:00"
+  },
+  {
+    "house": "idris",
+    "category": "Hedfan",
+    "title": "The bench is not a storage cupboard",
+    "body": "Idris team: take your equipment with you when you have finished using it.\n\nIf you need something checked, say so. Leaving it behind does not explain what is wrong with it.\n\nThat is the whole notice.",
+    "signature": "Gethin Robberts · Idris Hedfan Captain",
+    "id": "winter-batch-2026-12-04",
+    "publishAt": "2026-12-04T09:00:00+00:00"
+  },
+  {
+    "house": "derwen",
+    "category": "A little company",
+    "title": "You do not need a grand entrance",
+    "body": "If you are looking forward to the Yule Ball but less enthusiastic about walking into a busy room alone, you are probably not the only one.\n\nI would be happy to go along with other older students who would enjoy a little company. You do not need an entertaining story prepared. A hello is enough to begin with.",
+    "signature": "Carys Bowen · Derwen",
+    "id": "winter-batch-2026-12-06",
+    "publishAt": "2026-12-06T09:00:00+00:00"
+  },
+  {
+    "house": "school",
+    "category": "December at school",
+    "title": "Two occasions to look forward to",
+    "body": "The Yule Ball will be held in the flying hall on 19 December. Our winter feast for students and staff remaining at school follows on 21 December in the dining hall.\n\nPlease help one another enjoy these occasions. A warm welcome and a little consideration are as valuable as any decoration.\n\nThank you to everyone finding time to contribute while keeping up with their work.",
+    "signature": "Headmistress Imelda Penrose",
+    "id": "winter-batch-2026-12-09",
+    "publishAt": "2026-12-09T09:00:00+00:00"
+  },
+  {
+    "house": "idris",
+    "category": "Players wanted",
+    "title": "A seasonal peace offering",
+    "body": "If you have been avoiding a game of chess with me because I took far too long over my last move, I have considered the complaint.\n\nI cannot promise to become an excellent player overnight. I can promise to stop explaining every possible consequence before choosing one.\n\nAnother older student willing to test this improvement would be welcome.",
+    "signature": "Iestyn Vaughan · Idris",
+    "id": "winter-batch-2026-12-11",
+    "publishAt": "2026-12-11T09:00:00+00:00"
+  },
+  {
+    "house": "school",
+    "category": "Before the holidays",
+    "title": "One page at a time",
+    "body": "If the work still to finish before the holidays feels larger than the time available, begin by writing down what actually needs doing.\n\nChoose one manageable task. Ask about the part you do not understand. You are allowed to need help even when everyone else appears terribly organised.\n\nA little steady progress is still progress.",
+    "signature": "Professor Morwenna · Deputy Headmistress",
+    "id": "winter-batch-2026-12-13",
+    "publishAt": "2026-12-13T09:00:00+00:00"
   }
 ]
