@@ -138,3 +138,9 @@ Penrose’s annual start/end messages are defined in `school-annual-notices.js`:
 ### Chapter-inspired Spotify playlist
 
 The author’s My Neighbour Is a Vampire playlist is embedded at `my-neighbour-is.html#cedar-playlist`, linked from homepage Reader extras and the lore contents. Spotify hosts and manages the tracks; updating the same playlist in Spotify does not require a site change. A direct Spotify link is available alongside the responsive, titled, lazy-loaded player. No track list, chapter-to-song mapping or number of tracks is copied into the site.
+
+### Writing desk publication dates
+
+`writing-desk.js` hides a writing-project card once its `.book-release-date time[datetime]` date has passed in Europe/London. The card remains throughout publication day and disappears from the next UK calendar day: Vampire on 26 June 2027, Witch on 26 July 2027. Books without a valid confirmed date remain visible. Change the date on the card when a release moves; no separate date list needs synchronising.
+
+The page checks on load, each minute and when a reader returns to the tab. Remaining cards fill the grid; if none remain, the writing section hides. Bookshelf cards, lore and news are unaffected. The automatic display change requires JavaScript and does not delete content from source. Run `node --test tests/writing-desk.test.cjs` to check date boundaries.
