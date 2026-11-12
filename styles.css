@@ -133,3 +133,5 @@ nav.lore-contents{display:flex;position:static;flex-direction:column;align-items
 .book-description-details[open] .description-show-less{display:inline}
 .books .book-description-full{margin-top:20px}
 .books .book-description-full p{margin:0 0 15px;color:#62685e;font-size:13px}
+
+.newsletter{background:#1e2b27;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}.newsletter-layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:50px;align-items:start}.newsletter-copy,.newsletter-signup{min-width:0}.newsletter-copy h2{font-size:clamp(35px,4vw,55px)}.newsletter-copy>p:not(.eyebrow){max-width:490px;color:var(--muted)}.newsletter-signup{padding:24px;background:#14201b;border:1px solid var(--line);border-radius:4px}.newsletter-signup .ml-embedded{width:100%;max-width:100%}.newsletter-note,.newsletter-status{font-size:12px;color:var(--muted);margin:14px 0 0}#newsletter{scroll-margin-top:30px}@media(max-width:800px){.newsletter-layout{grid-template-columns:minmax(0,1fr);gap:25px}.newsletter-signup{padding:15px}}

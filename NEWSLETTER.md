@@ -1,0 +1,9 @@
+# Author newsletter
+
+The homepage `#newsletter` section embeds the author-created MailerLite form. Reader extras links directly to it. The public account ID is `2791353`, and the form code is `9YS70A`; these are embed identifiers, not credentials. `newsletter.js` queues the account call and loads `https://assets.mailerlite.com/js/universal.js` once on the homepage. MailerLite owns the email field, CAPTCHA, validation, submission, confirmation and success message. No subscriber addresses are saved in this repository, and there is no separate local submission endpoint.
+
+Edit the form copy, styles, target subscriber group, confirmation email and double-opt-in settings in MailerLite. The same embedded form reflects those provider changes without copying its HTML into this site. The website shows a loading/retry message if the form cannot load and a no-JavaScript message when scripting is disabled. Keep the real form's consent and unsubscribe wording visible; never replace provider submission with a simulated success message.
+
+The form's real markup was verified to render at desktop, tablet and mobile widths. Test browser certificate trust required fetching external public resources through the inherited TLS-verifying HTTP client; no certificate verification was disabled. No subscription or email was submitted during the check.
+
+Remaining account work belongs in MailerLite: confirm the selected subscriber group, check confirmation/double-opt-in behaviour with the author’s own address, complete any account approval and sender verification/domain authentication required before campaigns can send. The signup embed does not prove sender authentication or campaign delivery. Sending a test or campaign requires the author's explicit instruction; adding the form does not authorise sending emails to others. Porkbun forwarding/mailbox setup is independent and was not changed by this integration.
