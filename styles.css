@@ -120,19 +120,9 @@ nav.lore-contents{display:flex;position:static;flex-direction:column;align-items
 
 .writing-project[hidden],#writing[hidden]{display:none!important}
 
-/* Keep multi-row shelves inside their section and make long blurbs optional. */
+/* Keep multi-row shelves inside their section. */
 .book-card{min-width:0}
 .book-meta h3{overflow-wrap:anywhere}
-.books .book-description-details{margin-top:16px}
-.books .book-description-details>summary{display:inline-flex;align-items:center;min-height:44px;padding:9px 14px;border:1px solid #7c725c;border-radius:2px;font:13px/1.5 Arial,Helvetica,sans-serif;color:#25352e;letter-spacing:0;list-style:none;cursor:pointer}
-.books .book-description-details>summary:hover{background:#ded9ca}
-.books .book-description-details>summary:focus-visible{outline:2px solid #536747;outline-offset:4px}
-.books .book-description-details>summary::-webkit-details-marker{display:none}
-.book-description-details .description-show-less{display:none}
-.book-description-details[open] .description-read-more{display:none}
-.book-description-details[open] .description-show-less{display:inline}
-.books .book-description-full{margin-top:20px}
-.books .book-description-full p{margin:0 0 15px;color:#62685e;font-size:13px}
 
 .newsletter{background:#1e2b27;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}.newsletter-layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:50px;align-items:start}.newsletter-copy,.newsletter-signup{min-width:0}.newsletter-copy h2{font-size:clamp(35px,4vw,55px)}.newsletter-copy>p:not(.eyebrow){max-width:490px;color:var(--muted)}.newsletter-signup{padding:24px;background:#14201b;border:1px solid var(--line);border-radius:4px}.newsletter-signup .ml-embedded{width:100%;max-width:100%}.newsletter-note,.newsletter-status{font-size:12px;color:var(--muted);margin:14px 0 0}#newsletter{scroll-margin-top:30px}@media(max-width:800px){.newsletter-layout{grid-template-columns:minmax(0,1fr);gap:25px}.newsletter-signup{padding:15px}}
 
